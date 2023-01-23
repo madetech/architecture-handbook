@@ -2,12 +2,11 @@
 
 Please check out below the Learning Paths!
 
-These are split to beginner -> advanced data concepts to aid in self development. 
+These are split to beginner -> advanced concepts to aid in self development. 
 
 - :sparkle: [Introduction to Software Architecture](learning_paths/introduction_to_software_architecture.md)
 - :mechanical_arm: [Architecture for Developers](learning_paths/developers.md)
 - :crystal_ball: [Architecture for Leaders](learning_paths/leaders.md)
-
 
 ## Playbooks: For Technical Leaders and Architects in Role
 
