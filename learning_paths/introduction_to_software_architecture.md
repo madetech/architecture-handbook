@@ -35,8 +35,6 @@ However, alignment with DDaT professions is not a given and on the ground you ar
 
 ### Enterprise Architect
 
-### Solution Architect
-
 ### Technical Architect
 
 Can also be described as: **Application Architect** or **Software Architect** or **Product Architect** 
@@ -47,12 +45,13 @@ Can also be described as: **Infrastructure Architect**
 
 ### Other roles you might see
 
-Integration architect, Security Architect. Data Architect 
+Integration architect, Solution Architect, Security Architect, Data Architect 
 
 ## The Modern 'Digital' Architect
 
 The emergence of the Digital Architect.
-Developers are also architects.
+
+Where we consider all Developers as playing a part in the architecture role.
 
 # Expectations of a Digital Architect
 
