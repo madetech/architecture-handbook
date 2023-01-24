@@ -30,7 +30,7 @@ This is often achieved by:
 
 - [The skills needed by an Architect](/learning_paths/skills_of_an_architect.md)
 
-# Learning Paths
+# Learning
 
 - [Getting Started](/learning_paths/getting_started.md)
 - [Introducing the Principles](/learning_paths/introducing_the_principles.md)
