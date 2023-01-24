@@ -24,7 +24,11 @@ This is often achieved by:
 
 # Expectations of an Architect
 
+- [The expectations placed on Architects](/learning_paths/expectations_of_an_architect.md)
+
 # Skillset of an Architect
+
+- [The skills needed by an Architect](/learning_paths/skills_of_an_architect.md)
 
 # Learning Paths
 
