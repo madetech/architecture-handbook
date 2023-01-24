@@ -23,11 +23,15 @@ Traditionally the architect role has evolved into certain activities at differen
 
 You will see some architects working closely with the exec team and never with developers, others work close to the coal face and organisations like to keep this distinction by differing titles. 
 
-## Understanding the different types of architect roles
-
 ## Typical Public Sector Roles
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+The Public Sector is made up of hundreds (if not thousands) of organiations all moving at a differnt pace and differing levels of size and digital maturity.
+
+GDS define archiecture roles here:
+
+  https://www.gov.uk/government/collections/digital-data-and-technology-profession-capability-framework#technical-job-family
+
+However, alignment with DDaT professions is not a given and on the ground you are likely to see.
 
 ### Enterprise Architect
 
@@ -43,7 +47,7 @@ Can also be described as: **Infrastructure Architect**
 
 ### Other roles you might see
 
-Integration architect, Solution Architect, Security Architect. Data Architect 
+Integration architect, Security Architect. Data Architect 
 
 ## The Modern 'Digital' Architect
 
