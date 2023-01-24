@@ -61,11 +61,11 @@ Developers are also architects.
 # Learning Path
 
 ## First steps
-### Video Links
+### Video Links - The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise
 ### Unicorn Project
 
 ## Dipping into the theory
-### Video Links - Elevator
+### Video Links 
 ### Fundamentals Book
 ### Clean Architecture
 
