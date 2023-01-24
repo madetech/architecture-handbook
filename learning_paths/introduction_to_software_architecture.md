@@ -32,12 +32,5 @@ This is often achieved by:
 
 # Learning Paths
 
-## First steps
-### Video Links - The Software Architect Elevator: Redefining the Architect's Role in the Digital Enterprise
-### Unicorn Project
-
-## Dipping into the theory
-### Video Links 
-### Fundamentals Book
-### Clean Architecture
-
+- [Getting Started](/learning_paths/getting_started.md)
+- [Introducing the Principles](/learning_paths/introducing_the_principles.md)
