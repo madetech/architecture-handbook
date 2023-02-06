@@ -6,9 +6,9 @@ You will see some architects working closely with the exec team and never with d
 
 ## Typical Public Sector Roles
 
-The Public Sector is made up of hundreds (if not thousands) of organiations all moving at a differnt pace and differing levels of size and digital maturity.
+The Public Sector is made up of hundreds (if not thousands) of organiations all moving at a differing pace and many levels of size and digital maturity.
 
-GDS define archiecture roles here:
+GDS have a definition of architecture roles here:
 
   https://www.gov.uk/government/collections/digital-data-and-technology-profession-capability-framework#technical-job-family
 
@@ -26,10 +26,13 @@ Can also be described as: **Infrastructure Architect**
 
 ### Other roles you might see
 
-Integration architect, Solution Architect, Security Architect, Data Architect 
+Integration architect, Solution Architect, Security Architect, Data Architect, Transformation Architect 
 
-## The Modern 'Digital' Architect
+## The Modern Architect
 
-The emergence of the Digital Architect.
+We are seeing the emergence of a modern architect within leaner, more agile 'Digital Enterprises' where role and activities are less siloed.
 
-Where we consider all Developers as playing a part in the architecture role.
+> Modern architects align organization and technology, reduce friction, and chart transformation journeys. In addition to working with UML and architecture styles, such architects ride the Architect Elevator from the penthouse, where the business strategy is set, to the engine room, where the enabling technologies are implemented. They shun popular buzzwords in favor of a clear strategy defined by conscious decision making.
+> Gregor Hohpe, https://architectelevator.com/
+
+We also consider how **all** Developers as playing a part in the architecture role and how the modern architect facilitates this.
