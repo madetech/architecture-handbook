@@ -33,6 +33,7 @@ Integration architect, Solution Architect, Security Architect, Data Architect, T
 We are seeing the emergence of a modern architect within leaner, more agile 'Digital Enterprises' where role and activities are less siloed.
 
 > Modern architects align organization and technology, reduce friction, and chart transformation journeys. In addition to working with UML and architecture styles, such architects ride the Architect Elevator from the penthouse, where the business strategy is set, to the engine room, where the enabling technologies are implemented. They shun popular buzzwords in favor of a clear strategy defined by conscious decision making.
+> 
 > Gregor Hohpe, https://architectelevator.com/
 
 We also consider how **all** Developers as playing a part in the architecture role and how the modern architect facilitates this.
