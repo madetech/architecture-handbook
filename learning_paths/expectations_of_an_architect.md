@@ -11,3 +11,5 @@
 ## Skills and Behaviours
 
 **Architecture is a skill and set of behaviours: not just a role**
+
+![enter image description here](https://github.com/madetech/architecture-handbook/blob/main/images/architect_skills_blockbuster.png)
