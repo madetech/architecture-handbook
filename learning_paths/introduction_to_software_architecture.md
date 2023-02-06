@@ -20,7 +20,7 @@ This is often achieved by:
 # The Role of the Architect
 
 - [Architects and their many titles](/learning_paths/the_role_of_an_architect.md)
-- [The Digital Architect](/learning_paths/the_digital_architect.md)
+- [The Modern Architect](/learning_paths/the_digital_architect.md)
 
 # Expectations of an Architect
 
