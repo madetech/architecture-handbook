@@ -2,7 +2,7 @@
 
 ## Understanding Context
 
-### Playbook part 1 - 'Holistic Thinking'
+### [Playbook Part 1 - 'Holistic Thinking'](https://docs.google.com/presentation/d/1RwBxzT37oZNXWZzJBgZ9e-IzXfYOlf7FnGIPdjEZV-Q/edit?usp=sharing)
 
 ## Software Architecture
 
@@ -85,4 +85,5 @@ Quality Attributes or Non Functional Requirements need to be considered and bala
 ## Reference Material
 
 [Fundamentals of Software Architecture](https://www.google.com/url?q=https://app.learnerbly.com/resources/7eee7452-4cee-4b0b-a748-204ecf047307/&sa=D&sntz=1&usg=AOvVaw3n-_LHSEGjtdqftBL5X--v) 
+
 [Just Enough Software Architecture](https://app.learnerbly.com/resources/058590f7-3f71-49a4-9fc7-8c499a60d925/?queryID=530b40ae0c648257d6f54e64cda05cc7&index=production_resources/)
