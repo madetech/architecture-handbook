@@ -6,6 +6,11 @@
 
 ## Software Architecture
 
+Clean architecture is an amalgamation of a number of architecture strategies. It is an attempt to create a separation of concerns. This separation is achieved by dividing the software into layers such as decoupling UI from the Business logic or external dependancies to increase testability and changeability of components increasing your softwares responsiveness to change.
+  
+The overriding rule that makes this architecture work is _The Dependency Rule_. This rule says that _source code dependencies_ can only point _inwards_.
+
+A simple [explanation](https://www.youtube.com/watch?v=Ys_W6MyWOCw) - 15 minutes
 ### Code design principles (SOLID)
 ### Component principles
 ### Architecture principles
