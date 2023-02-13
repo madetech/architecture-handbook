@@ -15,7 +15,12 @@
 ## Day to day Activities
 
 ### Continually visualise the technical architecture
-### Able to simply describe the purpose of a component
-### Keep documentation close to code
+### Describing the purpose of a component
+### Keeping documentation close to code
 ### Identifying 'non' requirements
-###  Manage risk
+###  Managing risk
+
+## Reference Material
+
+Fundamentals of Software Architecture 
+Just Enough Software Architecture
