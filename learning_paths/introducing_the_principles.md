@@ -43,6 +43,23 @@ We have observed that proximity of documentation to code leads to increased fres
    delivery that add value in terms of domain context
 
 ### Identifying 'non' requirements
+
+Quality Attributes or Non Functional Requirements need to be considered and balanced as they are normally a trade off, examples could be:
+
+ - Performance
+ - Interoperability
+ - Deployability
+ - Reliability
+ - Availability
+ - Security  
+ - Maintainability
+ - Observability
+ - Testability
+ - Scaleability
+ - Modifiability
+ - Reusability
+ - Audibility
+
 ###  Managing risk
 
 [Risk Storming](https://www.google.com/url?q=https%3A%2F%2Friskstorming.com%2F&sa=D&sntz=1&usg=AOvVaw3BVCnFt1o6K9xYXddpDFY9)
@@ -67,5 +84,5 @@ We have observed that proximity of documentation to code leads to increased fres
 
 ## Reference Material
 
-Fundamentals of Software Architecture 
-Just Enough Software Architecture
+[Fundamentals of Software Architecture](https://www.google.com/url?q=https://app.learnerbly.com/resources/7eee7452-4cee-4b0b-a748-204ecf047307/&sa=D&sntz=1&usg=AOvVaw3n-_LHSEGjtdqftBL5X--v) 
+[Just Enough Software Architecture](https://app.learnerbly.com/resources/058590f7-3f71-49a4-9fc7-8c499a60d925/?queryID=530b40ae0c648257d6f54e64cda05cc7&index=production_resources/)
