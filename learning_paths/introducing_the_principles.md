@@ -68,7 +68,7 @@ Clean architecture is an amalgamation of a number of architecture strategies. It
   
 The overriding rule that makes this architecture work is _The Dependency Rule_. This rule says that _source code dependencies_ can only point _inwards_.
 
-A simple [explanation](https://www.youtube.com/watch?v=Ys_W6MyWOCw) - 15 minutes
+A simple [explanation](https://www.youtube.com/watch?v=Ys_W6MyWOCw) that nicely explains when and when not to follow dogma based on trade offs. (15 minutes)
 
 ### Principles we believe are important
 #### Component principles
@@ -79,6 +79,21 @@ A simple [explanation](https://www.youtube.com/watch?v=Ys_W6MyWOCw) - 15 minutes
 -   Aligns to single responsibility principle
 -   Able to reason easily about the architecture
 -   Inability to be able to do this implies complex / multi-responsibility component or other associated 'code smells'
+
+### A word on Microservices vs Monoliths
+
+Microservices are popular as (in theory) they force a number of the above principals onto teams by splitting up services into small domain concerns with clear interfaces. They provide other advantages such as (but not limited to):
+
+-   Scalability improvements
+-   Improved fault isolation
+-   Program language and technology agnostic
+-   Reusability across different areas of business
+
+However they also have a management overhead and if designed poorly can be unintentionally tightly coupled (e.g a distributed monolith) which can become a nightmare to maintain.
+
+I would argue a team should be understand how to create a loosely coupled Monolith before embarking on Microservices so I recommend the video below.
+
+[Creating a Loosely Coupled Monolith](https://www.youtube.com/watch?v=48C-RsEu0BQ)
 
 ## Day to day Activities
 
