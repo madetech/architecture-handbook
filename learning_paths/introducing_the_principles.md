@@ -9,14 +9,14 @@
 
 Once the context is understood and the architect knows (more or less) how to make decisions around trade offs and where value lies (e.g scaleability and performance is important but only up to a point and but not as important as correctness or use-ability) then they are better equipped to design the system.
 
-Whether you are designing micro services or monoliths the basic principles remain.
+Whether you are designing Microservices or monoliths or something else entirely the basic principles remain.
 
  - The codebase needs to be easy to test in small chunks or as a whole
  - The code base needs to be easy to change and adapt
  - The codebase (and therefore design) is always changing and adapting
  - When a change is made the impact needs to be minimal (it should not trigger many subsequent changes through other components or even services causing developers pain)
 
-So the goal is a responsive architecture. Architecture could be the design of classes and functions or services and systems, the goal and approach is always the same (it's just the scale you are looking at it from).
+So the goal is a responsive software design whether thats the design of classes and functions or services and systems. The goal and approach is always the same (it's just the scale you are looking at it from might change).
 
 With that in mind it's worth looking at a number of well known approaches to attempt to solve this problem that we believe work well.
 
@@ -26,7 +26,7 @@ You don't need to know all these (and other approaches not mentioned) inside out
 
 ### Code design principles
 
-A good foundation (or place to start)  is the design of code and an understanding of best practice.
+A good foundation (or place to start) is the design of code and an understanding of best practice.
 
 #### TDD
 
@@ -34,7 +34,7 @@ It's worth revisiting why we do TDD (Test Driven Development) as it's not just t
 
 It is possible to recognise code written using TDD practices at is is intrinsically different from code which was written without TDD. You also find adding tests retrospectively is hard and frustrating and you end up leaning on BDD (behavioural tests).
 
-Why is this ?
+*Why is this ?*
 
 Code written using TDD has to be small, have a single purpose and therefore a single test. We compose these testable units together into more complex behaviours.
 
@@ -44,7 +44,23 @@ Code written using TDD has to be small, have a single purpose and therefore a si
 
 #### SOLID
 
+The SOLID principles for Object Oriented Programming are important to understand as their use cases can be scaled beyond classes and functions within a single codebase.
+
+-   **S**  - Single-responsibility Principle
+-   **O**  - Open-closed Principle
+-   **L**  - Liskov Substitution Principle
+-   **I**  - Interface Segregation Principle
+-   **D**  - Dependency Inversion Principle
+
+[SOLID Principles for Programming and Software Design](https://www.freecodecamp.org/news/solid-principles-for-programming-and-software-design/)
+
 ### Responsive Architecture Approaches
+
+Taking a step further back and thinking more abstractly about designing software and services we encounter design patterns which attempt to make larger scale designs more responsive to change.
+
+You don't need to know these in depth but being aware of their existence and what they are trying to achieve will help you in your design process.
+
+The patterns below are some good starting points but you will find many more if you dig deeper.
 
 ####  Onion Architecture
 
@@ -59,6 +75,16 @@ Code written using TDD has to be small, have a single purpose and therefore a si
 [Hexagonal Architecture](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software))
 
 ####  DCI (Data, context, and interaction)  Architecture
+
+A slightly different twist on the above approaches where users and their behaviour are moved to the fore.
+> Objects are principally about people and their mental models—not polymorphism, coupling and cohesion
+>  ... but in spite of capturing structure, OO fails to capture behavior
+
+
+-   To improve the readability of  [object-oriented](https://en.wikipedia.org/wiki/Object-oriented_programming "Object-oriented programming")  code by giving system behavior first-class status;
+-   To cleanly separate code for rapidly changing system behavior (what a system  _does_) versus slowly changing  [domain knowledge](https://en.wikipedia.org/wiki/Domain_knowledge "Domain knowledge")  (what a system  _is_), instead of combining both in one class interface;
+-   To help software developers reason about system-level state and behavior instead of only object state and behavior;
+-   To support an object style of thinking that is close to programmers' mental models, rather than the class style of thinking that overshadowed object thinking early in the history of object-oriented programming languages.
 
 [DCI Architecture](https://www.artima.com/articles/the-dci-architecture-a-new-vision-of-object-oriented-programming)
 
