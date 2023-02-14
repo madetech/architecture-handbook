@@ -3,7 +3,13 @@
 
 ## Understanding Context
 
-### [Playbook Part 1 - 'Holistic Thinking'](https://docs.google.com/presentation/d/1RwBxzT37oZNXWZzJBgZ9e-IzXfYOlf7FnGIPdjEZV-Q/edit?usp=sharing)
+Before we embark on designing software we need to understand the context in which it will be both developed and used. This understanding will inform our decision making later on. We would introduce significant risk if we committed to a language, frameworks or infrastructure without an understanding of expectations and constraints 
+
+### The Made Tech Architecture Playbook
+
+Our current playbook focuses on these activities and making yourself familiar with the approach will help you get started on any project.
+
+ [Playbook Part 1 - 'Holistic Thinking'](https://docs.google.com/presentation/d/1RwBxzT37oZNXWZzJBgZ9e-IzXfYOlf7FnGIPdjEZV-Q/edit?usp=sharing)
 
 ## Software Architecture
 
@@ -96,15 +102,11 @@ The overriding rule that makes this architecture work is _The Dependency Rule_. 
 
 A simple [explanation](https://www.youtube.com/watch?v=Ys_W6MyWOCw) that nicely explains when and when not to follow dogma based on trade offs. (15 minutes)
 
-### Principles we believe are important
-#### Component principles
-#### Setting Boundaries
-#### Separating layers
-#### Describing the purpose of a component
+### Software Architecture Principles we believe are important
 
--   Aligns to single responsibility principle
--   Able to reason easily about the architecture
--   Inability to be able to do this implies complex / multi-responsibility component or other associated 'code smells'
+ - **Designing Components** so they are *stable* (balancing cohesion and coupling)
+ - **Setting Boundaries** between software elements. Boundaries  separate things that matter from things that don’t, i.e. high-level components from low-level components
+ - **Separating layers** and organising them using the *dependency rule*: outer layers should depend on inner layers (at the source-level), and not vice versa.
 
 ### A word on Microservices vs Monoliths
 
