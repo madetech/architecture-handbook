@@ -38,7 +38,7 @@ You don't need to know all these (or the many other approaches not mentioned) in
 
 ### [Software Architecture Principles we believe are important](../principles.md)
 
-## [A word on Microservices vs Monoliths](monoliths_vs_microservices.md)
+## A word on Microservices vs Monoliths
 
 The debate around how to layer a service - should you or should you not follow a microservice, service oriented or monolithic architecture is so common it's worth addressing now so... [A word on Microservices vs Monoliths](monoliths_vs_microservices.md)
 
