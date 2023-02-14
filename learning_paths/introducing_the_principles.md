@@ -17,20 +17,20 @@ Our current playbook focuses on these activities and making yourself familiar wi
 
 Once the context is understood and the architect knows (more or less) how to make decisions around trade offs and where value lies (e.g scaleability and performance is important but only up to a point and but not as important as correctness or use-ability) then they are better equipped to design the system.
 
-Whether you are designing Microservices or monoliths or something else entirely the basic principles remain.
+Whether you are designing Microservices or monoliths (or something else entirely) the basic principles remain.
 
  - The codebase needs to be easy to test in small chunks or as a whole
- - The code base needs to be easy to change and adapt
- - The codebase (and therefore design) is always changing and adapting
- - When a change is made the impact needs to be minimal (it should not trigger many subsequent changes through other components or even services causing developers pain)
+ - The codebase needs to be easy to change and adapt to new requirements
+ - The codebase (and therefore design) *is* always changing and adapting
+ - When a change is made the impact needs to be minimal (it should not trigger many subsequent changes through other components or services causing developers pain)
 
-So the goal is a responsive software design whether thats the design of classes and functions or services and systems. The goal and approach is always the same (it's just the scale you are looking at it from might change).
+So the goal is a responsive software design whether thats the design of classes and functions or services and systems. The goal is always the same (it's just the scale you are looking at it from might change).
 
 With that in mind it's worth looking at a number of well known approaches to attempt to solve this problem that we believe work well.
 
-There is no *'one true way'* to design systems but good software developers would have a knowledge of many techniques and apply as needed.
+There is no *'one true way'* to design systems but good software developers have a knowledge of many techniques and apply as needed.
 
-You don't need to know all these (and other approaches not mentioned) inside out but have an awareness so when you see the problem space you might relate it back to a known pattern well suited to solve it.
+You don't need to know all these (or the many other approaches not mentioned) inside out but have an awareness so when you see the problem space you might relate it back to a known pattern.
 
 ### [Code design principles](code_design_principles.md)
 
@@ -38,9 +38,15 @@ You don't need to know all these (and other approaches not mentioned) inside out
 
 ### [Software Architecture Principles we believe are important](../principles.md)
 
-### [A word on Microservices vs Monoliths](monoliths_vs_microservices.md)
+## [A word on Microservices vs Monoliths](monoliths_vs_microservices.md)
 
-### [Day to day Behaviours](continuous_behaviours.md)
+The debate around how to layer a service - should you or should you not follow a microservice, service oriented or monolithic architecture is so common it's worth addressing now so... [A word on Microservices vs Monoliths](monoliths_vs_microservices.md)
+
+## Day to day Behaviours
+
+This is also true for day to day behaviours, as an architect (or a software developer) what could you be doing on a regular basis that are likely to improve architectural outcomes ?
+
+[Day to day Behaviours](continuous_behaviours.md)
 
 ## Reference Material
 
