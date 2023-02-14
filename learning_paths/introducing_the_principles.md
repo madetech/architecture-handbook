@@ -3,7 +3,9 @@
 
 ## Understanding Context
 
-Before we embark on designing software we need to understand the context in which it will be both developed and used. This understanding will inform our decision making later on. We would introduce significant risk if we committed to a language, frameworks or infrastructure without an understanding of expectations and constraints 
+Before we embark on designing software we need to understand the context in which it will be both developed and used. 
+
+This understanding will inform our decision making later on. We could introduce significant risk if we committed to a language, frameworks or infrastructure without an understanding of expectations and constraints 
 
 ### The Made Tech Architecture Playbook
 
