@@ -48,7 +48,7 @@ This is also true for day to day behaviours, as an architect (or a software deve
 
 [Day to day Behaviours](continuous_behaviours.md)
 
-## Reference Material
+## Reading Material
 
 [Fundamentals of Software Architecture](https://www.google.com/url?q=https://app.learnerbly.com/resources/7eee7452-4cee-4b0b-a748-204ecf047307/&sa=D&sntz=1&usg=AOvVaw3n-_LHSEGjtdqftBL5X--v) 
 
