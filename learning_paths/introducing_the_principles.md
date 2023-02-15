@@ -34,9 +34,9 @@ You don't need to know all these (or the many other approaches not mentioned) in
 
 ### [Code design principles](code_design_principles.md)
 
-### [Responsive Architecture Approaches](responsive_architecture_approaches.md)
+### [Responsive architecture approaches](responsive_architecture_approaches.md)
 
-### [Software Architecture Principles we believe are important](software_architecture_principles.md)
+### [Software architecture principles we believe are important](software_architecture_principles.md)
 
 ## A word on Microservices vs Monoliths
 
