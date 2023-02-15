@@ -1,4 +1,4 @@
-### A word on Microservices vs Monoliths
+# A word on Microservices vs Monoliths
 
 Microservices are popular as (in theory) they force a number of the above principals onto teams by splitting up services into small domain concerns with clear interfaces. They provide other advantages such as (but not limited to):
 
