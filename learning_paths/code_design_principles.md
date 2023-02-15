@@ -1,8 +1,8 @@
-### Code design principles
+# Code design principles
 
 A good foundation (or place to start) is the design of code and an understanding of best practice.
 
-#### TDD
+## TDD
 
 It's worth revisiting why we do TDD (Test Driven Development) as it's not just to ensure our code is tested but to promote good code design.
 
@@ -16,7 +16,7 @@ Code written using TDD has to be small, have a single purpose and therefore a si
 > 
 > https://www.codecraftr.nl/why-use-tdd/
 
-#### SOLID
+## SOLID
 
 The SOLID principles for Object Oriented Programming are important to understand as their use cases can be scaled beyond classes and functions within a single codebase.
 
