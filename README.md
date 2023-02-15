@@ -1,8 +1,6 @@
 # Architecture Handbook
 
-Please check out below the Learning Paths!
-
-These are split to beginner -> advanced concepts to aid in self development. 
+Please check out our Learning Paths!
 
 - :sparkle: [Introduction to Software Architecture](learning_paths/introduction_to_software_architecture.md)
 
