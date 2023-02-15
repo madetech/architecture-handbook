@@ -1,4 +1,4 @@
-### Responsive Architecture Approaches
+# Responsive Architecture Approaches
 
 Taking a step further back and thinking more abstractly about designing software and services we encounter design patterns which attempt to make larger scale designs more responsive to change.
 
@@ -6,19 +6,19 @@ You don't need to know these in depth but being aware of their existence and wha
 
 The patterns below are some good starting points but you will find many more if you dig deeper.
 
-####  Onion Architecture
+##  Onion Architecture
 
 [Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/)
 
-#### Domain Driven Design
+## Domain Driven Design
 
 [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)
 
-#### Hexagonal Architecture
+## Hexagonal Architecture
 
 [Hexagonal Architecture](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software))
 
-####  DCI (Data, context, and interaction)  Architecture
+##  DCI (Data, context, and interaction)  Architecture
 
 A slightly different twist on the above approaches where users and their behaviour are moved to the fore.
 > Objects are principally about people and their mental models—not polymorphism, coupling and cohesion
@@ -32,7 +32,7 @@ A slightly different twist on the above approaches where users and their behavio
 
 [DCI Architecture](https://www.artima.com/articles/the-dci-architecture-a-new-vision-of-object-oriented-programming)
 
-#### Clean Architecture
+## Clean Architecture
 
 Clean architecture is an amalgamation of a number of architecture strategies. It is an attempt to create a separation of concerns. This separation is achieved by dividing the software into layers such as decoupling UI from the Business logic or external dependancies to increase testability and changeability of components increasing your softwares responsiveness to change.
   
