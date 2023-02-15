@@ -1,6 +1,6 @@
 # Responsive architecture approaches
 
-Taking a step further back and thinking more abstractly about designing software and services we encounter design patterns which attempt to make larger scale designs more responsive to change.
+Taking a step further back from the code and thinking more abstractly about designing software and services we encounter design patterns which attempt to make larger scale designs more responsive to change.
 
 You don't need to know these in depth but being aware of their existence and what they are trying to achieve will help you in your design process.
 
