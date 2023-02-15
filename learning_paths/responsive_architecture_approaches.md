@@ -1,4 +1,4 @@
-# Responsive Architecture Approaches
+# Responsive architecture approaches
 
 Taking a step further back and thinking more abstractly about designing software and services we encounter design patterns which attempt to make larger scale designs more responsive to change.
 
