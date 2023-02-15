@@ -29,9 +29,6 @@ We have observed that proximity of documentation to code leads to increased fres
  - diagrams done at the start/end of a delivery to living parts of the  
    delivery that add value in terms of domain context
 
-[Risk Storming](https://www.google.com/url?q=https%3A%2F%2Friskstorming.com%2F&sa=D&sntz=1&usg=AOvVaw3BVCnFt1o6K9xYXddpDFY9)
-
-
 ## Communicate into the future
 
 -   Communication is a key architecture skill
