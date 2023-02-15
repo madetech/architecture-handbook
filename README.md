@@ -12,7 +12,7 @@ Please check out our Learning Paths!
 
 A catalogue of our recommended learning material.
 
-## Principles, Processes and Tools
+## Principles, Processes, Standards and Tools
 
 We maintain a list of [principles](principles.md) that we have observed teams using to be successful.  
 
