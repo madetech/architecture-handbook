@@ -1,4 +1,4 @@
-### Software Architecture Principles we believe are important
+### The Big List of Principles
 
  - **Designing Components** so they are *stable* (balancing cohesion and coupling)
  - **Setting Boundaries** between software elements. Boundaries  separate things that matter from things that don’t, i.e. high-level components from low-level components
