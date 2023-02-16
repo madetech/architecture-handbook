@@ -15,7 +15,3 @@ A catalogue of our recommended learning material.
 ## Principles, Processes, Standards and Tools
 
 We maintain a list of [principles](principles.md) that we have observed teams using to be successful.  
-
-## Internal Content
-
-Links to internal content for Made Tech staff.
