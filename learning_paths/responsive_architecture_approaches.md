@@ -58,6 +58,6 @@ The overriding rule that makes this architecture work is _The Dependency Rule_. 
 
 A simple [explanation](https://www.youtube.com/watch?v=Ys_W6MyWOCw) that nicely explains when and when not to follow dogma based on trade offs - 15 minutes
 
-## Further Reading
+## Further Material
 
 [Hexagonal, Onion & Clean Architecture](https://www.youtube.com/watch?v=JubdZIdLQ4M)
