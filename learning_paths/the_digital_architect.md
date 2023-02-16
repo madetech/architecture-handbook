@@ -23,4 +23,6 @@ As an architect your role is often to deliver and accelerate this transformation
 
 The role has been described as 'some kind of digital guru' which can feel a bit overwhelming but it comes down to architects being **'agents of change'**.
 
-The modern architect does not operate in a silo but has a broader role, bringing the organisation together around lean and agile methodologies to enable the most effective technical delivery for a service. They work closely with Delivery Managers and Product Owners managing trade offs and leading technical decision making from a position of informed knowledge.  
+The modern architect does not operate in a silo but has a broader role, bringing the organisation together around lean and agile methodologies to enable the most effective technical delivery for a service. They work closely with Delivery Managers and Product Owners managing trade offs and leading technical decision making from a position of informed knowledge.
+
+**Next** - [The expectations placed on Architects](/learning_paths/expectations_of_an_architect.md)
