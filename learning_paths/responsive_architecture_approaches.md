@@ -8,6 +8,10 @@ The patterns below are some good starting points but you will find many more if 
 
 ##  Onion Architecture
 
+The Onion Architecture is not well known but often implemented. It is a foundational part of the more popular clean architecture (discussed later).
+
+This Architecture relies heavily on the _Dependency Inversion Principle_ and focuses on decoupling the business logic from other layers which is a recurring theme for building responsive architectures.
+
 [Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/)
 
 ## Domain Driven Design
