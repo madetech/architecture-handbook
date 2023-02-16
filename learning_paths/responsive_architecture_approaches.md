@@ -54,7 +54,7 @@ Clean architecture is an amalgamation of a number of architecture strategies. It
   
 The overriding rule that makes this architecture work is _The Dependency Rule_. This rule says that _source code dependencies_ can only point _inwards_.
 
-A simple [explanation](https://www.youtube.com/watch?v=Ys_W6MyWOCw) that nicely explains when and when not to follow dogma based on trade offs. (15 minutes)
+A simple [explanation](https://www.youtube.com/watch?v=Ys_W6MyWOCw) that nicely explains when and when not to follow dogma based on trade offs - 15 minutes
 
 ## Further Reading
 
