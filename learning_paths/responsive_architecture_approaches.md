@@ -12,7 +12,17 @@ The patterns below are some good starting points but you will find many more if 
 
 ## Domain Driven Design
 
+Domain Driven Design is a concept that models software based on a business domain and it's context, working closely with business experts.
+
 [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)
+
+You might see how the DDD approach fits well with the Made Tech Playbook where we spend effort understanding the business context, working closely with subject matter experts.
+
+[DDD Made Simple](https://www.youtube.com/watch?v=H5--9pMmuK4) - 8 minutes
+
+However it's implementation can be complicated or overkill for smaller projects.
+
+[Stop Dogmatic DDD](https://www.youtube.com/watch?v=8XmXhXH_q90)
 
 ## Hexagonal Architecture
 
