@@ -30,14 +30,16 @@ However it's implementation can be complicated or overkill for smaller projects.
 
 ## Hexagonal Architecture
 
-[Hexagonal Architecture](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software))
+[Hexagonal Architecture](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)) is yet another approach that shares many themes from above.
+
+[How To Make Your App Maintainable (hint: Adopt Hexagonal Architecture)](https://www.youtube.com/watch?v=92ZJcxJgmmE) - 18 mins
 
 ##  DCI (Data, context, and interaction)  Architecture
 
 A slightly different twist on the above approaches where users and their behaviour are moved to the fore.
+
 > Objects are principally about people and their mental models—not polymorphism, coupling and cohesion
 >  ... but in spite of capturing structure, OO fails to capture behavior
-
 
 -   To improve the readability of  [object-oriented](https://en.wikipedia.org/wiki/Object-oriented_programming "Object-oriented programming")  code by giving system behavior first-class status;
 -   To cleanly separate code for rapidly changing system behavior (what a system  _does_) versus slowly changing  [domain knowledge](https://en.wikipedia.org/wiki/Domain_knowledge "Domain knowledge")  (what a system  _is_), instead of combining both in one class interface;
@@ -53,3 +55,7 @@ Clean architecture is an amalgamation of a number of architecture strategies. It
 The overriding rule that makes this architecture work is _The Dependency Rule_. This rule says that _source code dependencies_ can only point _inwards_.
 
 A simple [explanation](https://www.youtube.com/watch?v=Ys_W6MyWOCw) that nicely explains when and when not to follow dogma based on trade offs. (15 minutes)
+
+## Further Reading
+
+[Hexagonal, Onion & Clean Architecture](https://www.youtube.com/watch?v=JubdZIdLQ4M)
