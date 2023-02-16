@@ -28,9 +28,11 @@ However it's implementation can be complicated or overkill for smaller projects.
 
 [Stop Dogmatic DDD](https://www.youtube.com/watch?v=8XmXhXH_q90) - 7 minutes
 
-## Hexagonal Architecture
+## Hexagonal Architecture (Ports and Adapters)
 
 [Hexagonal Architecture](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)) is yet another approach that shares many themes from above.
+
+The _Ports and Adapters_ approach here is incredibly powerful for creating easily testable units of code. Using this approach you end up injecting dependancies into your units of code (e.g a class) decoupling anything outside the core application (such as a database or API). 
 
 [How To Make Your App Maintainable (hint: Adopt Hexagonal Architecture)](https://www.youtube.com/watch?v=92ZJcxJgmmE) - 18 mins
 
