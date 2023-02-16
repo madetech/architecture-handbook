@@ -31,3 +31,5 @@ Another example is a Senior vs a Lead architect where the senior performs more s
 You might want to **map your strengths and skills** over the graphic above ? if you were to rate yourself in each area what would your radar look like ?
 
 Once you understand this you know your strengths and weaknesses and you can communicate that to your team, if someone on your team excels in an area you are weak then work together and learn from them!
+
+**Next** - [Getting Started](/learning_paths/getting_started.md)
