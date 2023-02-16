@@ -37,3 +37,6 @@ We are seeing the emergence of a modern architect within leaner, more agile 'Dig
 > Gregor Hohpe, https://architectelevator.com/
 
 We also consider how **all** Developers as play a part in the architecture role and how the modern architect facilitates this.
+
+--------------
+**Next** - [The Modern Architect](/learning_paths/the_digital_architect.md)
