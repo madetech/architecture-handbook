@@ -6,7 +6,7 @@ Please check out our Learning Paths!
 
 ## Playbooks: For Technical Leaders and Architects in Role
 
-- [Playbook Part 1 - Holistic Thinking]('pdf/Architecture Playbook - Part 1 Holistic Thinking.pdf')
+- [Playbook Part 1 - Holistic Thinking](pdf/Architecture%20Playbook%20-%20Part%201%20Holistic%20Thinking.pdf)
 
 ## Learning Resources: Books, Blogs and Video
 
