@@ -20,3 +20,5 @@ They might do this by coding with the team or by simply discussing the code and 
  - Do they design everything ?
  - Do they need to know everything ?
  - What does the average day look like ?
+
+**Next** - [The skills and behaviours of an Architect](/learning_paths/skills_of_an_architect.md)
