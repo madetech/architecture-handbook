@@ -22,7 +22,7 @@ You might see how the DDD approach fits well with the Made Tech Playbook where w
 
 However it's implementation can be complicated or overkill for smaller projects.
 
-[Stop Dogmatic DDD](https://www.youtube.com/watch?v=8XmXhXH_q90)
+[Stop Dogmatic DDD](https://www.youtube.com/watch?v=8XmXhXH_q90) - 7 minutes
 
 ## Hexagonal Architecture
 
