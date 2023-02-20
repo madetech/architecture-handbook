@@ -11,7 +11,7 @@ This understanding will inform our decision making later on. We could introduce 
 
 Our current playbook focuses on these activities and making yourself familiar with the approach will help you get started on any project.
 
- [Playbook Part 1 - 'Holistic Thinking'](../pdf/Architecture%20Playbook%20-%20Part%201%20Holistic%20Thinking.pdf)
+ [Playbook Part 1 - 'Holistic Thinking'](https://docs.google.com/presentation/d/1RwBxzT37oZNXWZzJBgZ9e-IzXfYOlf7FnGIPdjEZV-Q/edit?usp=sharing)
 
 ## Software Architecture
 
