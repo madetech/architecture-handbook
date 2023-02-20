@@ -22,13 +22,13 @@ Examples of different balances of an architect might be:
 - Strong technical background but less experience presenting and communicating ideas to non technical groups
 - Excellent communicator and influencer, great at listening and understanding but has a shallower understanding of technology or might be missing a few areas such as cloud or security.
 
-![Enterprise Architect vs Technical Architect](https://github.com/madetech/architecture-handbook/blob/main/images/enterprise-vs-technical.png)
+[Enterprise Architect vs Technical Architect](https://github.com/madetech/architecture-handbook/blob/main/images/enterprise-vs-technical.png)
 
 Another example is a Senior vs a Lead architect where the senior performs more strongly in some areas but is missing a key skill or is overall weaker across other areas compared to the lead.
 
-![Senior Architect vs Lead Architect](https://github.com/madetech/architecture-handbook/blob/main/images/senior-vs-lead.png)
+[Senior Architect vs Lead Architect](https://github.com/madetech/architecture-handbook/blob/main/images/senior-vs-lead.png)
 
-You might want to **map your strengths and skills** over the graphic above ? if you were to rate yourself in each area what would your radar look like ?
+You might want to **[map your strengths and skills](https://madetech.github.io/skills-radar-prototype/)** over the graphic above ? if you were to rate yourself in each area what would your radar look like ?
 
 Once you understand this you know your strengths and weaknesses and you can communicate that to your team, if someone on your team excels in an area you are weak then work together and learn from them!
 
