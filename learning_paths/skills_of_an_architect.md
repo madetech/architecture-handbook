@@ -13,7 +13,7 @@ Now looking near the bottom we see a growth mindset. Architects are always seeki
 
 We also see facilitation in the bottom right, this is another key skill and brings together all the above elements as an agent of change. Architects use evidence based approaches with a lean and agile mindset often running workshops and collaborative activities (again working closely with delivery managers and product owners) to influence positive, focused behaviours.
 
-This again makes us think of a 'Digital Guru' and can feel overwhelming or impossible to achieve ? How can an architect be an expert in all these areas ?
+This again makes us think of a 'Digital Guru' and can seem impossible to achieve ? How can an architect be an expert in all these areas ?
 
 The truth is no architect is an expert in every area but effective architects have a good understanding of all areas with no glaring weakness. Many will have specialities or stronger attributes but all recognise their strengths and utilise others to complement them while improving and learning through their growth mindset.
 
