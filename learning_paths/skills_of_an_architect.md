@@ -5,7 +5,7 @@
 
 ![skills and behaviours](https://github.com/madetech/architecture-handbook/blob/main/images/architect_skills_blockbuster.png)
 
-As an Architect you need both sides to be effective. you might have fantastic technical knowledge and experience but if you can't communicate and influence others that knowledge will be wasted. Likewise without a solid technical understanding you might not communicate of influence the right ideas or fall short on credibility. Worse still you could lead an organisation in the wrong technical direction !
+As an Architect you need both sides to be effective. you might have fantastic technical knowledge and experience but if you can't communicate and influence others that knowledge will be wasted. Likewise without a solid technical understanding you might not communicate or influence the right ideas or fall short on credibility. Worse still you could lead an organisation in the wrong technical direction !
 
 Looking now at the top of the graphic we see leadership skills, both technical and non technical. People will look at you for direction and you should be able to communicate direction with authority. Without some kind of leadership people will not trust the vision you put forward.
 
