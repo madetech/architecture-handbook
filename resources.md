@@ -23,8 +23,11 @@ About £12 on [Learnerbly](https://app.learnerbly.com/resources/8b5f3f4d-95f7-42
 ## Videos
 
 [The Software Architect Elevator](https://www.youtube.com/watch?v=Zq2VcRZmz78)
+
 [Hexagonal, Onion & Clean Architecture](https://www.youtube.com/watch?v=JubdZIdLQ4M)
+
 [How To Make Your App Maintainable (hint: Adopt Hexagonal Architecture)](https://www.youtube.com/watch?v=92ZJcxJgmmE)
+
 ## Web
 
 [Debugging Architects](https://architectelevator.com/transformation/debugging-architect/)
