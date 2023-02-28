@@ -16,6 +16,10 @@ This is often achieved by:
  - Communicating clearly at different levels and audiences
  - Looking left and right across the technical landscape minimising divergence and increasing convergence
  - Governance
+ 
+# Why do we need Architecture
+
+- [Architecture tells a story](/learning_paths/why_do_we_need_architecture.md) and architects are story tellers.
 
 # The Role of the Architect
 
