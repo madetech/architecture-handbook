@@ -10,7 +10,7 @@ Please check out our Learning Paths!
 
 ## Learning Resources: Books, Blogs and Video
 
-A catalogue of our recommended learning material.
+A [catalogue](resources.md) of our recommended learning material.
 
 ## Principles, Processes, Standards and Tools
 
