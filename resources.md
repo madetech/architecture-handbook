@@ -31,10 +31,13 @@ About £12 on [Learnerbly](https://app.learnerbly.com/resources/8b5f3f4d-95f7-42
 ## Web
 
 [Debugging Architects](https://architectelevator.com/transformation/debugging-architect/)
+
 [Improve how you architect web apps](https://www.patterns.dev/)
 
 ## People
 
 [Gregor Hohpe](https://architectelevator.com/about/)
+
 [Simon Brown](https://simonbrown.je/)
+
 [Addy Osmani](https://addyosmani.com/)
