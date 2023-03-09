@@ -16,4 +16,6 @@ A [catalogue](resources.md) of our recommended learning material.
 
 We maintain a list of [principles](principles.md) that we have observed teams using to be successful.
 
+We also have a list of [tools]|(principles/tools.md) that we find useful.
+
 We have an [Interactive Skills Radar](https://madetech.github.io/skills-radar-prototype/) which you can use to gauge your architecture skills.
