@@ -7,8 +7,9 @@
 
 ## C4
 
-We recommend the [C4 model](https://www.google.com/url?q=https%3A%2F%2Fc4model.com%2F&sa=D&sntz=1&usg=AOvVaw37D_ZkAp1YMSvEpByhY17H)
-    
+We recommend the [C4 model](https://c4model.com/)
+
 -   C4 model provides a lean approach to diagramming a software architecture at multiple levels
 -   Focus on providing clear meaning
 -   Useful as starting point for other techniques such as risk storming
+- See the [tools section.](./tools.md)
