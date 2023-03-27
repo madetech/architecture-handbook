@@ -25,6 +25,20 @@ About £12 on [Learnerbly](https://app.learnerbly.com/resources/8b5f3f4d-95f7-42
 -   Contains advice and guidance on the primary and supplimentary diagrams and how to handle large systems
 -   Provides guidance on adding additional information to the diagrams to help facilitate a particular narrative
 About £9 on [leanpub](https://leanpub.com/visualising-software-architecture)
+
+### The Pragmatic Programmer
+- Reminder of:
+  - Don't add complexity where it isn't need yet
+  - Trade offs (pros/cons)
+- Available on [Learnerbly](https://app.learnerbly.com/resources/85352e3b-7845-4557-9338-805feed76796/)
+
+### Just enough software architecture: A risk-driven approach
+- This is a practical guide for software developers
+- It teaches risk-driven architecting
+- It emphasizes the engineering
+- It provides practical advice
+- Available on [Learnerbly](https://app.learnerbly.com/resources/058590f7-3f71-49a4-9fc7-8c499a60d925/)
+
 ## Videos
 
 [The Software Architect Elevator](https://www.youtube.com/watch?v=Zq2VcRZmz78)
