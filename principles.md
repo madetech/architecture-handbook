@@ -14,15 +14,12 @@ Boundaries separate things that matter from things that don’t, i.e. high-level
 
 Outer layers should depend on inner layers (at the source-level), and not vice versa.
 
-## No Business Logic in the User Interface
+## Don't add complexity where it is not needed
 
-No Business Logic in the UI *unless...*
-
-If the UI has Business Logic in the UI the project **should** include an Architecture Decision Record explaining why.
-
-## Avoid using JavaScript in the User Interface
-
-If the UI has JavaScript it **should** include an Architecture Decision Record. Even if the project uses standard GOV.uk/local authorities' approved components.
+For example:
+* Most services we build are simple forms
+* We should avoid Business Logic in the User Interface. If the project requires it, we **should** include an Architecture Decision Record explaining why.
+* Avoid using JavaScript in the User Interface in the project. The project should **should** include an Architecture Decision Record explaining why. Even if the project uses standard GOV.uk/local authorities' approved components.
 
 ## Behaviours
 
