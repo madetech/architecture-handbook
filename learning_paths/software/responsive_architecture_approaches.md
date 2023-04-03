@@ -1,3 +1,5 @@
+[< Back](../introducing_the_principles.md)
+
 # Responsive architecture approaches
 
 Taking a step further back from the code and thinking more abstractly about designing software and services we encounter design patterns which attempt to make larger scale designs more responsive to change.
@@ -32,7 +34,7 @@ However it's implementation can be complicated or overkill for smaller projects.
 
 [Hexagonal Architecture](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)) is yet another approach that shares many themes from above.
 
-The _Ports and Adapters_ approach here is incredibly powerful for creating easily testable units of code. Using this approach you end up injecting dependancies into your units of code (e.g a class) decoupling anything outside the core application (such as a database or API). 
+The _Ports and Adapters_ approach here is incredibly powerful for creating easily testable units of code. Using this approach you end up injecting dependancies into your units of code (e.g a class) decoupling anything outside the core application (such as a database or API).
 
 [How To Make Your App Maintainable (hint: Adopt Hexagonal Architecture)](https://www.youtube.com/watch?v=92ZJcxJgmmE) - 18 mins
 
@@ -53,7 +55,7 @@ A slightly different twist on the above approaches where users and their behavio
 ## Clean Architecture
 
 Clean architecture is an amalgamation of a number of architecture strategies. It is an attempt to create a separation of concerns. This separation is achieved by dividing the software into layers such as decoupling UI from the Business logic or external dependancies to increase testability and changeability of components increasing your softwares responsiveness to change.
-  
+
 The overriding rule that makes this architecture work is _The Dependency Rule_. This rule says that _source code dependencies_ can only point _inwards_.
 
 A simple [explanation](https://www.youtube.com/watch?v=Ys_W6MyWOCw) that nicely explains when and when not to follow dogma based on trade offs - 15 minutes
@@ -61,3 +63,5 @@ A simple [explanation](https://www.youtube.com/watch?v=Ys_W6MyWOCw) that nicely 
 ## Further Material
 
 [Hexagonal, Onion & Clean Architecture](https://www.youtube.com/watch?v=JubdZIdLQ4M)
+
+[< Back](../introducing_the_principles.md)

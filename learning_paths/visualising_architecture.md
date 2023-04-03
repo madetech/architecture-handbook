@@ -2,7 +2,7 @@
 Helping to create a common understanding and foster collaboration.
 
 ## Recommended reading
-Many of views expressed here align the views of Simon Brown in his book which is part of our [recommended reading list](/resources.md).
+Many of views expressed here align the views of Simon Brown in his book which is part of our [recommended reading list](../resources.md).
 
 ## Watch
 Watch our recent visualising architecture CoP session [here](https://drive.google.com/file/d/14R3OpBbcN0xbU_XeQQfG7ocehkw_U0w3/view?usp=share_link)

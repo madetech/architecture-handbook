@@ -3,9 +3,9 @@
 
 ## Understanding Context
 
-Before we embark on designing software we need to understand the context in which it will be both developed and used. 
+Before we embark on designing software we need to understand the context in which it will be both developed and used.
 
-This understanding will inform our decision making later on. We could introduce significant risk if we committed to a language, frameworks or infrastructure without an understanding of expectations and constraints 
+This understanding will inform our decision making later on. We could introduce significant risk if we committed to a language, frameworks or infrastructure without an understanding of expectations and constraints
 
 ### The Made Tech Architecture Playbook
 
@@ -32,24 +32,24 @@ There is no *'one true way'* to design systems but good software developers have
 
 You don't need to know all these (or the many other approaches not mentioned) inside out but have an awareness so when you see the problem space you might relate it back to a known pattern.
 
-### [Code design principles](code_design_principles.md)
+### [Code design principles](./software/code_design_principles.md)
 
-### [Responsive architecture approaches](responsive_architecture_approaches.md)
+### [Responsive architecture approaches](./software/responsive_architecture_approaches.md)
 
-### [Software architecture principles we believe are important](software_architecture_principles.md)
+### [Software architecture principles we believe are important](./software/software_architecture_principles.md)
 
 ## Microservices vs Monoliths
 
-The debate around how to layer a service - should you or should you not follow a microservice, service oriented or monolithic architecture is so common it's worth addressing now so... [A word on Microservices vs Monoliths](monoliths_vs_microservices.md)
+The debate around how to layer a service - should you or should you not follow a microservice, service oriented or monolithic architecture is so common it's worth addressing now so... [A word on Microservices vs Monoliths](./software/monoliths_vs_microservices.md)
 
 ## Day to day Behaviours
 
 This is also true for day to day behaviours, as an architect (or a software developer) what could you be doing on a regular basis that are likely to improve architectural outcomes ?
 
-[Day to day Behaviours](continuous_behaviours.md)
+[Day to day Behaviours](./software/continuous_behaviours.md)
 
 ## Reading Material
 
-[Fundamentals of Software Architecture](https://app.learnerbly.com/resources/7eee7452-4cee-4b0b-a748-204ecf047307/&sa=D&sntz=1&usg=AOvVaw3n-_LHSEGjtdqftBL5X--v) 
+[Fundamentals of Software Architecture](https://app.learnerbly.com/resources/7eee7452-4cee-4b0b-a748-204ecf047307/&sa=D&sntz=1&usg=AOvVaw3n-_LHSEGjtdqftBL5X--v)
 
 [Just Enough Software Architecture](https://app.learnerbly.com/resources/058590f7-3f71-49a4-9fc7-8c499a60d925/?queryID=530b40ae0c648257d6f54e64cda05cc7&index=production_resources/)
