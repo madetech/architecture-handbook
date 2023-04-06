@@ -6,6 +6,9 @@
 -   Real world advice for technologists to drive architectural excellence
 -   Viewed as a guide to navigate personal journeys towards software architecture mastery
 -   Comprehensive overview of software architecture's many aspects
+-   > Everything in software architecture is a trade-off. First Law of Software Architecture
+-   > Why is more important than how. Second Law of Software Architecture
+-   > All architectures become iterative because of unknown unknowns, Agile just recognizes this and does it sooner
 -   £35 on [Learnerbly](https://app.learnerbly.com/resources/7eee7452-4cee-4b0b-a748-204ecf047307/)
 
 ### The Software Architect Elevator
