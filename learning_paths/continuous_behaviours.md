@@ -1,3 +1,5 @@
+[< Back](./introducing_the_principles.md)
+
 # Day to day Behaviours
 
 ## Continually visualise the technical architecture
@@ -17,7 +19,7 @@ Quality Attributes or Non Functional Requirements need to be considered and bala
  - Deployability
  - Reliability
  - Availability
- - Security  
+ - Security
  - Maintainability
  - Observability
  - Testability
@@ -28,8 +30,8 @@ Quality Attributes or Non Functional Requirements need to be considered and bala
 
 ##  Managing risk
 
-[Risk Storming](https://www.google.com/url?q=https%3A%2F%2Friskstorming.com%2F&sa=D&sntz=1&usg=AOvVaw3BVCnFt1o6K9xYXddpDFY9)
-    
+[Risk Storming](https://riskstorming.com/)
+
 -   A visual and collaborative risk identification technique
 -   Can be applied to architectures, business processes, workflows, etc
 -   Can be applied multiple times during the lifetime of the thing being risk stormed
@@ -38,3 +40,5 @@ Quality Attributes or Non Functional Requirements need to be considered and bala
 ## Communicating into the future
 
 [Read more here](../principles/communicate_into_the_future.md)
+
+[< Back](./introducing_the_principles.md)
