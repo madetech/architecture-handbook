@@ -23,7 +23,7 @@ Ask somebody in the building industry to visually communicate the architecture o
 We feel it is difficult to describe a code base perfectly without a lot of prior knowledge. We feel that different questions require different levels of granularity to answer them, which may not easily be possible from just looking at the code. The code doesn’t answer where components are deployed at runtime or how they communicate and it does not provide an overview of a system that can be used for group decision making.
 
 ## C4 Model
-The C4 Model focusses on the visual communication and documentation of software architecture. It doesn’t present a formalised, standardised method to communicate software architecture, it does provide a collection of lightweight ideas and techniques that we've observed to be useful.
+The [C4 Model](https://c4model.com/) focusses on the visual communication and documentation of software architecture. It doesn’t present a formalised, standardised method to communicate software architecture, it does provide a collection of lightweight ideas and techniques that we've observed to be useful.
 
 We've observed the use of the C4 Model with our active deliveries and found that it:
 - Provides a lean approach to diagramming a software architecture at multiple levels
@@ -32,3 +32,9 @@ We've observed the use of the C4 Model with our active deliveries and found that
 - Has a wide range of diagram types that are easy to learn, create and understand
 - Isn't mandatory to create versions of all of the diagrams, only use ones that appropriate. System Context and Container diagrams are the most widely used.
 - is a simple but not simplistic approach to visualising architecture
+
+## Tools
+
+See a list of potential [tools](../principles/tools.md) that are tried and tested.
+
+However, we recommend the [C4 Model](https://c4model.com/) and the [Structurizr DSL](https://github.com/structurizr/dsl). See [here for a demo](https://github.com/madetech/structurizr-template) that you can try and explains why.
