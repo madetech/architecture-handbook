@@ -7,6 +7,7 @@ Please check out our Learning Paths!
 ## Playbooks: For Technical Leaders and Architects in Role
 
 - [Playbook Part 1 - Holistic Thinking](https://docs.google.com/presentation/d/1RwBxzT37oZNXWZzJBgZ9e-IzXfYOlf7FnGIPdjEZV-Q/edit?usp=sharing)
+- [Trello Template](https://trello.com/b/YIcVgWde/architecture-playbook-template) for the playbook
 
 ## Learning Resources: Books, Blogs and Video
 
