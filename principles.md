@@ -18,7 +18,7 @@ Outer layers should depend on inner layers (at the source-level), and not vice v
 
 For example:
 * Most services we build are simple forms
-* We should avoid Business Logic in the User Interface. If the project requires it, we **should** include an [Architecture Decision Record](./principles/communicate_into_the_future.md) explaining why.
+* We should avoid Business Logic in the User Interface. If the project requires it, we **should** include an [Architecture Decision Record](./principles/communicate_into_the_future.md) explaining why
 * Avoid using JavaScript in the User Interface in the project. The project **should** include an [Architecture Decision Record](./principles/communicate_into_the_future.md) explaining why. Even if the project uses standard GOV.uk/local authorities' approved components
 
 ## Behaviours
