@@ -26,7 +26,7 @@
 ## [Structurizr](https://structurizr.com/)
 
 - Diagrams as code
-- Also offers publishing of ADRs to enrich the generated diagrams
+- Also offers publishing of [ADRs](./communicate_into_the_future.md) to enrich the generated diagrams
 - Developed by Simon Brown, and so has strong C4 model support
 - See [MoJ's HMPPS](https://github.com/ministryofjustice/hmpps-architecture-as-code) example
 
