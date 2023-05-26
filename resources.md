@@ -3,13 +3,15 @@
 ## Books
 
 ### Fundamentals of Software Architecture
--   Real world advice for technologists to drive architectural excellence
--   Viewed as a guide to navigate personal journeys towards software architecture mastery
--   Comprehensive overview of software architecture's many aspects
--   > Everything in software architecture is a trade-off. First Law of Software Architecture
--   > Why is more important than how. Second Law of Software Architecture
--   > All architectures become iterative because of unknown unknowns, Agile just recognizes this and does it sooner
--   £35 on [Learnerbly](https://app.learnerbly.com/resources/7eee7452-4cee-4b0b-a748-204ecf047307/)
+<img src="/images/fundamentals_of_software_architecture.jpeg" width="200">
+
+- Real world advice for technologists to drive architectural excellence
+- Viewed as a guide to navigate personal journeys towards software architecture mastery
+- Comprehensive overview of software architecture's many aspects, including:
+  - First Law of Software Architecture: _Everything in software architecture is a trade-off_ ⚖️
+  - Second Law of Software Architecture: _Why is more important than how_
+  - All architectures become iterative because of unknown unknowns, Agile just recognizes this and does it sooner
+- £35 on [Learnerbly](https://app.learnerbly.com/resources/7eee7452-4cee-4b0b-a748-204ecf047307/)
 
 ### The Software Architect Elevator
 -   Provides invaluable insight into what architecture is all about
@@ -33,14 +35,14 @@
 - Reminder of:
   - Don't add complexity where it isn't need yet
   - Trade offs (pros/cons)
-- Available on [Learnerbly](https://app.learnerbly.com/resources/85352e3b-7845-4557-9338-805feed76796/)
+- About £30 on [Learnerbly](https://app.learnerbly.com/resources/85352e3b-7845-4557-9338-805feed76796/)
 
 ### Just enough software architecture: A risk-driven approach
 - This is a practical guide for software developers
 - It teaches risk-driven architecting
 - It emphasizes the engineering
 - It provides practical advice
-- Available on [Learnerbly](https://app.learnerbly.com/resources/058590f7-3f71-49a4-9fc7-8c499a60d925/)
+- About £40 on [Learnerbly](https://app.learnerbly.com/resources/058590f7-3f71-49a4-9fc7-8c499a60d925/) but the ebook is available for £7.99 [on George Fairbanks' own website](https://www.georgefairbanks.com/e-book/)
 
 ## Videos
 
@@ -58,7 +60,7 @@
 
 [38 Actions and Insights to Become a Better Software Architect](https://medium.com/hackernoon/38-actions-and-insights-to-become-a-better-software-architect-f135e2de9a1b)
 
-[Roadhmap.sh - Software Architect](https://roadmap.sh/software-architect)
+[Roadmap.sh - Software Architect](https://roadmap.sh/software-architect)
 
 ## People
 
