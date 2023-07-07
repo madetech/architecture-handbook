@@ -8,9 +8,7 @@ You will see some architects working closely with the exec team and never with d
 
 The Public Sector is made up of hundreds (if not thousands) of organisations all moving at a differing pace and many levels of size and digital maturity.
 
-GDS have a definition of architecture roles here:
-
-  https://www.gov.uk/government/collections/digital-data-and-technology-profession-capability-framework#technical-job-family
+GDS have a definition of architecture roles [here](https://www.gov.uk/government/collections/digital-data-and-technology-profession-capability-framework#technical-job-family)
 
 However, alignment with DDaT professions is not a given and on the ground you are likely to see.
 
