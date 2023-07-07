@@ -46,7 +46,7 @@ The debate around how to layer a service - should you or should you not follow a
 
 This is also true for day to day behaviours, as an architect (or a software developer) what could you be doing on a regular basis that are likely to improve architectural outcomes ?
 
-[Day to day Behaviours](./software/continuous_behaviours.md)
+[Day to day Behaviours](./continuous_behaviours.md)
 
 ## Reading Material
 
