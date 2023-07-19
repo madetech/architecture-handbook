@@ -17,6 +17,7 @@ Ask somebody in the building industry to visually communicate the architecture o
 We feel it is difficult to describe a code base perfectly without a lot of prior knowledge. We feel that different questions require different levels of granularity to answer them, which may not easily be possible from just looking at the code. The code doesn’t answer where components are deployed at runtime or how they communicate and it does not provide an overview of a system that can be used for group decision making.
 
 ## Recommended reading
-Many of views expressed here align the views of Simon Brown in his book which is part of our [recommended reading list](../resources.md).
+Many of views expressed here align the views of Simon Brown in his book *(which book?)* which is part of our [recommended reading list](/resources.md).
 
-[Introducing the C4 model](./2_c4_model.md)
+## Solutions to visualise architecture
+- [The C4 model](./2_c4_model.md)

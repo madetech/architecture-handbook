@@ -1,4 +1,4 @@
-## C4 Model
+# C4 Model
 The [C4 Model](https://c4model.com/) focusses on the visual communication and documentation of software architecture. It doesn’t present a formalised, standardised method to communicate software architecture, it does provide a collection of lightweight ideas and techniques that we've observed to be useful.
 
 We've observed the use of the C4 Model with our active deliveries and found that it:
@@ -12,6 +12,7 @@ We've observed the use of the C4 Model with our active deliveries and found that
 ## Watch
 ### Visualising Architecture CoP session (22nd November 2022)
 [![Visualising Architecture](/images/visualising_architecture.jpg)](https://drive.google.com/file/d/14R3OpBbcN0xbU_XeQQfG7ocehkw_U0w3/view)
+
 Stuart McKee demostrates how to create a common understanding and foster collaboration
 
 - [Recording](https://drive.google.com/file/d/14R3OpBbcN0xbU_XeQQfG7ocehkw_U0w3/view)
