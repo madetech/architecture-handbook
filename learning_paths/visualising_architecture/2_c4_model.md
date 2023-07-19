@@ -9,6 +9,13 @@ We've observed the use of the C4 Model with our active deliveries and found that
 - Isn't mandatory to create versions of all of the diagrams, only use ones that appropriate. System Context and Container diagrams are the most widely used.
 - is a simple but not simplistic approach to visualising architecture
 
+The creator of C4 Simon Brown has published a called `Visualising Software Architecture`, which is part of our [recommended reading list](/resources.md)
+
+## Structurizr
+We recommend using the [C4 Model](https://c4model.com/) in conjunction with the [Structurizr DSL](https://github.com/structurizr/dsl) as a way to automatically generate the C4 diagrams from code. This allows for the Structurizr code to be kept in the same repository as the code of the system, making it easier to keep the two up to date together.
+
+ A [Structurizr quick start template](https://github.com/madetech/structurizr-template) has been created that you can use as a starting point in your own projects.
+
 ## Watch
 ### Visualising Architecture CoP session (22nd November 2022)
 [![Visualising Architecture](/images/visualising_architecture.jpg)](https://drive.google.com/file/d/14R3OpBbcN0xbU_XeQQfG7ocehkw_U0w3/view)
@@ -17,11 +24,3 @@ Stuart McKee demostrates how to create a common understanding and foster collabo
 
 - [Recording](https://drive.google.com/file/d/14R3OpBbcN0xbU_XeQQfG7ocehkw_U0w3/view)
 - [Slides](https://docs.google.com/presentation/d/1wXXkyTgoNJIgyD9MDuIlvi85uGHWjIgQhvOPKTNsrHo/edit)
-
-## Tools
-
-See a list of potential [tools](../principles/tools.md) that are tried and tested.
-
-However, we recommend the [C4 Model](https://c4model.com/) and the [Structurizr DSL](https://github.com/structurizr/dsl). 
-
-See [here for a demo](https://github.com/madetech/structurizr-template) that you can try and explains why.
