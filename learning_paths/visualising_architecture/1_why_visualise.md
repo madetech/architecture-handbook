@@ -16,5 +16,4 @@ Ask somebody in the building industry to visually communicate the architecture o
 ## Doesn't the code speak for itself?
 We feel it is difficult to describe a code base perfectly without a lot of prior knowledge. We feel that different questions require different levels of granularity to answer them, which may not easily be possible from just looking at the code. The code doesn’t answer where components are deployed at runtime or how they communicate and it does not provide an overview of a system that can be used for group decision making.
 
-## Solutions to visualise architecture
-- [The C4 model](./2_c4_model.md)
+**Next** - [The C4 model](./2_c4_model.md)
