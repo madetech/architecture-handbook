@@ -1,7 +1,7 @@
 # Architecture Handbook
 ## 🏫 Learning Paths
 - [Introduction to Software Architecture](learning_paths/introduction_to_software_architecture.md)
-- [Visualising Architecture for Developers]()
+- [Visualising Architecture for Developers](learning_paths/visualising_architecture/1_why_visualise.md)
 
 ## 📚 Playbooks
 For Technical Leaders and Architects in Role
