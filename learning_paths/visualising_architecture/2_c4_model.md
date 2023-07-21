@@ -1,5 +1,5 @@
 # C4 Model
-The [C4 Model](https://c4model.com/) focusses on the visual communication and documentation of software architecture. It doesn’t present a formalised, standardised method to communicate software architecture, it does provide a collection of lightweight ideas and techniques that we've observed to be useful.
+The [C4 Model](https://c4model.com/) focuses on the visual communication and documentation of software architecture. It doesn’t present a formalised, standardised method to communicate software architecture, it does however provide a collection of lightweight ideas and techniques that we've observed to be useful.
 
 We've observed the use of the C4 Model with our active deliveries and found that it:
 - Provides a lean approach to diagramming a software architecture at multiple levels
