@@ -9,7 +9,7 @@ We've observed the use of the C4 Model with our active deliveries and found that
 - Isn't mandatory to create versions of all of the diagrams, only use ones that appropriate. System Context and Container diagrams are the most widely used.
 - Is a simple but not simplistic approach to visualising architecture
 
-The creator of C4 Simon Brown has published a called `Visualising Software Architecture`, which is part of our [recommended reading list](/resources.md)
+The creator of C4 Simon Brown has published a book called `Visualising Software Architecture`, which is part of our [recommended reading list](/resources.md)
 
 ## Structurizr
 We recommend using the [C4 Model](https://c4model.com/) in conjunction with the [Structurizr DSL](https://github.com/structurizr/dsl) as a way to automatically generate the C4 diagrams from code. This allows for the Structurizr code to be kept in the same repository as the code of the system, making it easier to keep the two up to date together.
