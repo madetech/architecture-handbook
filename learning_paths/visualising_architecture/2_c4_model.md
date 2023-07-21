@@ -3,7 +3,7 @@ The [C4 Model](https://c4model.com/) focuses on the visual communication and doc
 
 We've observed the use of the C4 Model with our active deliveries and found that it:
 - Provides a lean approach to diagramming a software architecture at multiple levels
-- It helps focus on providing clear and concise meaning
+- Helps focus on providing clear and concise meaning
 - Is useful as starting point for other techniques such as risk storming
 - Has a wide range of diagram types that are easy to learn, create and understand
 - Isn't mandatory to create versions of all of the diagrams, only use ones that appropriate. System Context and Container diagrams are the most widely used.
