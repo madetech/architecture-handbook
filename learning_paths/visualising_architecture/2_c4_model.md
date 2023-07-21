@@ -20,7 +20,7 @@ We recommend using the [C4 Model](https://c4model.com/) in conjunction with the 
 ### Visualising Architecture CoP session (22nd November 2022)
 [![Visualising Architecture](/images/visualising_architecture.jpg)](https://drive.google.com/file/d/14R3OpBbcN0xbU_XeQQfG7ocehkw_U0w3/view)
 
-Stuart McKee demostrates how to create a common understanding and foster collaboration
+Stuart McKee demonstrates how to create a common understanding and foster collaboration
 
 - [Recording](https://drive.google.com/file/d/14R3OpBbcN0xbU_XeQQfG7ocehkw_U0w3/view)
 - [Slides](https://docs.google.com/presentation/d/1wXXkyTgoNJIgyD9MDuIlvi85uGHWjIgQhvOPKTNsrHo/edit)
