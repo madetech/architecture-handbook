@@ -18,7 +18,7 @@ We recommend using the [C4 Model](https://c4model.com/) in conjunction with the 
 
 ## Watch
 ### Visualising Architecture CoP session (22nd November 2022)
-[![Visualising Architecture](/images/visualising_architecture.jpg)](https://drive.google.com/file/d/14R3OpBbcN0xbU_XeQQfG7ocehkw_U0w3/view)
+[![Visualising Architecture](/images/visualising_architecture.jpg)](https://drive.google.com/file/d/14R3OpBbcN0xbU_XeQQfG7ocehkw_U0w3/view) (Made Tech internal video)
 
 Stuart McKee demonstrates how to create a common understanding and foster collaboration
 
