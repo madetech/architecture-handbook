@@ -7,7 +7,7 @@ We've observed the use of the C4 Model with our active deliveries and found that
 - Is useful as starting point for other techniques such as risk storming
 - Has a wide range of diagram types that are easy to learn, create and understand
 - Isn't mandatory to create versions of all of the diagrams, only use ones that appropriate. System Context and Container diagrams are the most widely used.
-- is a simple but not simplistic approach to visualising architecture
+- Is a simple but not simplistic approach to visualising architecture
 
 The creator of C4 Simon Brown has published a called `Visualising Software Architecture`, which is part of our [recommended reading list](/resources.md)
 
