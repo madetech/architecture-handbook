@@ -28,6 +28,7 @@ workspace {
 ## Watch
 ### Structurizr: Software architecture models as code CoP session (1st August 2023)
 [![Software architecture models as code](/images/structurizr.jpg)](https://drive.google.com/file/d/1mJ2TpHPmiwDel0GhoIQdVv87cXfTwLCf/view)
+**Made Tech internal only video**
 
 Peter Bridger explains how to get up and running with Structurizr to create your own interactive diagrams, along with using the documentation and ADR abilities of Structurizr Lite using the quick start template mentioned previously.
 
