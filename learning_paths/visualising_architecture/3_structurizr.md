@@ -5,6 +5,7 @@ A [Structurizr Lite quick start template](https://github.com/madetech/structuriz
 
 ## Quick overview
 All the code to define the model, relationships and views are held in a single `workspace.dsl` file that Structurizr uses to build the visual diagams.
+
 ![Structurizr workspace](/images/structurizr_workspace.jpg)
 
 The following code will generate a very simple diagram showing a basic relationship between a user and a software system
