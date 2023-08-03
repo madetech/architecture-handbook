@@ -33,7 +33,7 @@ workspace {
 Peter Bridger explains how to get up and running with Structurizr to create your own interactive diagrams, along with using the documentation and ADR abilities of Structurizr Lite using the quick start template mentioned previously.
 
 - [Recording](https://drive.google.com/file/d/1mJ2TpHPmiwDel0GhoIQdVv87cXfTwLCf/view)
-- [Slides](https://docs.google.com/presentation/d/1WDT0kEZoicyoUUp96QXznWwGv8lmvfAno0s_irAkXX0/edit#slide=id.g25db1f62abd_0_0)
+- [Slides](https://docs.google.com/presentation/d/1WDT0kEZoicyoUUp96QXznWwGv8lmvfAno0s_irAkXX0/edit)
 
 ### Futher reading
 - [Structurizr](https://structurizr.com/) project website
