@@ -17,10 +17,10 @@ For Technical Leaders and Architects in Role
 
 ## 🌐 Learning Resources
 - [A catalogue](resources.md) of our recommended learning material
-   - [Books](resources.md#books)
-   - [Videos](resources.md#videos)
-   - [Web](resources.md#web)
-   - [People](resources.md#people)
+   - [📚 Books](resources.md#books)
+   - [📺 Videos](resources.md#videos)
+   - [🌐 Web](resources.md#web)
+   - [💁 People](resources.md#people)
 
 ## ⚒️ Principles, Processes, Standards and Tools
 - [Principles](principles.md) that we have observed teams using to be successful
