@@ -1,5 +1,5 @@
 # Useful Resources
-## Books
+## 📚 Books
 
 ### Fundamentals of Software Architecture
 [![Fundamentals of Software Architecture](/images/books/fundamentals_of_software_architecture.jpeg)](https://app.learnerbly.com/resources/7eee7452-4cee-4b0b-a748-204ecf047307/)
@@ -48,18 +48,18 @@
 - It provides practical advice
 - About £40 on [Learnerbly](https://app.learnerbly.com/resources/058590f7-3f71-49a4-9fc7-8c499a60d925/) but the ebook is available for £7.99 [on George Fairbanks' own website](https://www.georgefairbanks.com/e-book/)
 
-## Videos
+## 📺 Videos
 - [The Software Architect Elevator](https://www.youtube.com/watch?v=Zq2VcRZmz78)
 - [Hexagonal, Onion & Clean Architecture](https://www.youtube.com/watch?v=JubdZIdLQ4M)
 - [How To Make Your App Maintainable (hint: Adopt Hexagonal Architecture)](https://www.youtube.com/watch?v=92ZJcxJgmmE)
 
-## Web
+## 🌐 Web
 - [Debugging Architects](https://architectelevator.com/transformation/debugging-architect/)
 - [Improve how you architect web apps](https://www.patterns.dev/)
 - [38 Actions and Insights to Become a Better Software Architect](https://medium.com/hackernoon/38-actions-and-insights-to-become-a-better-software-architect-f135e2de9a1b)
 - [Roadmap.sh - Software Architect](https://roadmap.sh/software-architect)
 
-## People
+## 💁 People
 - [Gregor Hohpe](https://architectelevator.com/about/)
 - [Simon Brown](https://simonbrown.je/)
 - [Addy Osmani](https://addyosmani.com/)
