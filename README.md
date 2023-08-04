@@ -3,7 +3,7 @@
 - [Introduction to Software Architecture](learning_paths/introduction_to_software_architecture.md)
 - [Visualising Architecture for Developers](learning_paths/visualising_architecture/1_why_visualise.md)
 
-## 🗣️ COP talks
+## 🗣️ Architecture COP talks (Made Tech internal videos only)
 - [05/07/2022 - Architecture Function Discovery Show and Tell](https://drive.google.com/file/d/1Qk7DCHTXl_kxSt75-cjXpx6T0aYeuwSo/view?usp=sharing)
 - [22/11/2022 - Visualising Architecture with the C4 model](https://drive.google.com/file/d/14R3OpBbcN0xbU_XeQQfG7ocehkw_U0w3/view)
 - [28/03/2023 - Intro to Architecture Learning Paths Show and tell](https://drive.google.com/open?id=1vLe46uk2GHBQvl8khTwDhmXAZ7nw51wb)
