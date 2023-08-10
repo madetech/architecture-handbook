@@ -6,9 +6,9 @@
 ## 🗣️ Architecture COP talks (Made Tech internal only videos)
 - [05/07/2022 - Architecture Function Discovery Show and Tell](https://drive.google.com/file/d/1Qk7DCHTXl_kxSt75-cjXpx6T0aYeuwSo/view?usp=sharing)
 - [22/11/2022 - Visualising Architecture with the C4 model](https://drive.google.com/file/d/14R3OpBbcN0xbU_XeQQfG7ocehkw_U0w3/view)
-- [28/03/2023 - Intro to Architecture Learning Paths Show and tell](https://drive.google.com/open?id=1vLe46uk2GHBQvl8khTwDhmXAZ7nw51wb)
-- [01/08/2023 - Structurizr: Software architecture models as code](https://drive.google.com/file/d/1mJ2TpHPmiwDel0GhoIQdVv87cXfTwLCf/view)
-- [08/08/2023 - Hexagonal, Onion to Clean architecture and back](https://drive.google.com/file/d/1uOJw35KnQPCBstHwf282yTKR3j1JtHsB/view)
+- [28/03/2023 - Intro to Architecture Learning Paths Show and tell](https://drive.google.com/file/d/1K0jJHByLXzPSaO8f0ZCwHc4n7Ffy3Hrq/view)
+- [01/08/2023 - Structurizr: Software architecture models as code](https://drive.google.com/file/d/1K0jJHByLXzPSaO8f0ZCwHc4n7Ffy3Hrq/view)
+- [08/08/2023 - Hexagonal, Onion to Clean architecture and back](https://drive.google.com/file/d/1z2cpyb_sYOHj8Kq4ZAnaLts0aVwr9TvM/view)
 
 ## 📚 Playbooks
 For Technical Leaders and Architects in Role
