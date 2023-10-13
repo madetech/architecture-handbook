@@ -21,6 +21,10 @@ This is often achieved by:
 
 # Why do we need Architecture
 
+Architecture is part of a value chain, issues early in the chain manifest later as other issues.
+
+Architecture issue -> Coding issue -> Application issue -> Business issue
+
 - [Architecture tells a story](./why_do_we_need_architecture.md) and architects are story tellers.
 
 # The Role of the Architect
