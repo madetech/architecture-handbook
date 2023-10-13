@@ -23,7 +23,7 @@ This is often achieved by:
 
 Architecture is part of a value chain, issues early in the chain manifest later as other issues.
 
-Architecture issue -> Coding issue -> Application issue -> Business issue
+> **Architecture issue -> Coding issue -> Application issue -> Business issue**
 
 - [Architecture tells a story](./why_do_we_need_architecture.md) and architects are story tellers.
 
