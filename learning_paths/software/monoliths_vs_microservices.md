@@ -14,6 +14,7 @@ However they also have a management overhead and if designed poorly can be unint
 We believe a team should understand how to create a loosely coupled Monolith before embarking on Microservices so recommend the video below.
 
 [Creating a Loosely Coupled Monolith](https://www.youtube.com/watch?v=48C-RsEu0BQ)
+
 [Modular Monoliths • Simon Brown (Warning! Challenging!)](https://www.youtube.com/watch?v=5OjqD-ow8GE)
 
 [< Back](../introducing_the_principles.md)
