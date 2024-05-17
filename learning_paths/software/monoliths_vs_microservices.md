@@ -15,6 +15,6 @@ We believe a team should understand how to create a loosely coupled Monolith bef
 
 [Creating a Loosely Coupled Monolith](https://www.youtube.com/watch?v=48C-RsEu0BQ)
 
-[Modular Monoliths • Simon Brown (Warning! Challenging!)](https://www.youtube.com/watch?v=5OjqD-ow8GE)
+[Modular Monoliths • Simon Brown (Warning! Challenging! Pay close attention to minute 38 onwards)](https://www.youtube.com/watch?v=5OjqD-ow8GE)
 
 [< Back](../introducing_the_principles.md)
