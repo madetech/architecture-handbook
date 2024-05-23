@@ -13,6 +13,7 @@
 ## Made Tech Community
 
 **#cop-architecture** - A place to get advice, find learning material, tools and track architecture news
+
 **#guild-systems-design** - A regular discussion group around solving real world problems
 
 ## 📚 Playbooks
