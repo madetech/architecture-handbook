@@ -10,6 +10,11 @@
 - [01/08/2023 - Structurizr: Software architecture models as code](https://drive.google.com/file/d/1K0jJHByLXzPSaO8f0ZCwHc4n7Ffy3Hrq/view)
 - [08/08/2023 - Hexagonal, Onion to Clean architecture and back](https://drive.google.com/file/d/1z2cpyb_sYOHj8Kq4ZAnaLts0aVwr9TvM/view)
 
+## Made Tech Community
+
+**#cop-architecture** - A place to get advice, find learning material, tools and track architecture news
+**#guild-systems-design** - A regular discussion group around solving real world problems
+
 ## 📚 Playbooks
 For Technical Leaders and Architects in Role
 
