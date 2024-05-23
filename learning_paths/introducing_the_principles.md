@@ -50,6 +50,6 @@ This is also true for day to day behaviours, as an architect (or a software deve
 
 ## Reading Material
 
-[Fundamentals of Software Architecture](https://app.learnerbly.com/resources/7eee7452-4cee-4b0b-a748-204ecf047307/&sa=D&sntz=1&usg=AOvVaw3n-_LHSEGjtdqftBL5X--v)
+[Fundamentals of Software Architecture](https://www.amazon.co.uk/dp/1492043451)
 
-[Just Enough Software Architecture](https://app.learnerbly.com/resources/058590f7-3f71-49a4-9fc7-8c499a60d925/?queryID=530b40ae0c648257d6f54e64cda05cc7&index=production_resources/)
+[Just Enough Software Architecture](https://www.amazon.co.uk/gp/product/0984618104)
