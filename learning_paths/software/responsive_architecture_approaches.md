@@ -60,6 +60,12 @@ The overriding rule that makes this architecture work is _The Dependency Rule_. 
 
 A simple [explanation](https://www.youtube.com/watch?v=Ys_W6MyWOCw) that nicely explains when and when not to follow dogma based on trade offs - 15 minutes
 
+## Event Driven Architecture
+
+An application and system architecture that has been well designed (and implemented) enables you to reap the benefits of other patterns such as [Event Driven Architecture](https://en.wikipedia.org/wiki/Event-driven_architecture).
+
+Events (as messages) can be easily transmitted among loosely coupled software components and services, an example of this might be using the [Observer Pattern](https://refactoring.guru/design-patterns/observer/ruby/example) to notify a Search Engine that state has changed to allow instant re-indexing.
+
 ## Further Material
 
 [Hexagonal, Onion & Clean Architecture](https://www.youtube.com/watch?v=JubdZIdLQ4M)
