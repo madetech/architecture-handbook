@@ -6,7 +6,7 @@ A [Structurizr Lite quick start template](https://github.com/madetech/structuriz
 ## Quick overview
 All the code to define the model, relationships and views are held in a single `workspace.dsl` file that Structurizr uses to build the visual diagams.
 
-![Structurizr workspace](/images/structurizr_workspace.jpg)
+![Structurizr workspace](https://madetech.github.io/architecture-handbook/images/structurizr_workspace.jpg)
 
 The following code will generate a very simple diagram showing a basic relationship between a user and a software system
 ```
@@ -27,7 +27,7 @@ workspace {
 
 ## Watch
 ### Structurizr: Software architecture models as code CoP session (1st August 2023)
-[![Software architecture models as code](/images/structurizr.jpg)](https://drive.google.com/file/d/1mJ2TpHPmiwDel0GhoIQdVv87cXfTwLCf/view)
+[![Software architecture models as code](https://madetech.github.io/architecture-handbook/images/structurizr.jpg)](https://drive.google.com/file/d/1mJ2TpHPmiwDel0GhoIQdVv87cXfTwLCf/view)
 **Made Tech internal only video**
 
 Peter Bridger explains how to get up and running with Structurizr to create your own interactive diagrams, along with using the documentation and ADR abilities of Structurizr Lite using the quick start template mentioned previously.
