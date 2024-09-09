@@ -24,6 +24,7 @@ For Technical Leaders and Architects in Role
 ## 🌐 Our Blogs
 - [Is your technical architecture driving the right outcomes](https://www.madetech.com/blog/is-your-technical-architecture-driving-the-right-outcomes/?utm_content=305104948&utm_medium=social&utm_source=linkedin&hss_channel=lcp-276725)
 - [AWS Well Architected](https://www.madetech.com/blog/aws-well-architected/)
+- [Why software projects get messy](https://www.madetech.com/blog/messy-software-projects/)
 
 ## 🌐 Learning Resources
 - [A catalogue](resources.md) of our recommended learning material
