@@ -10,7 +10,7 @@ The Public Sector is made up of hundreds (if not thousands) of organisations all
 
 GDS have a definition of architecture roles [here](https://www.gov.uk/government/collections/digital-data-and-technology-profession-capability-framework#technical-job-family), of which [this role definition](https://ddat-capability-framework.service.gov.uk/role/technical-architect#lead-technical-architect) is the most relevent and overlaps more clearly with Made Tech skills and behaviours.
 
-However, alignment with DDaT professions is not a given and on the ground when working with Central, Local or Arms lengths Bodies wthin the Public Sector and you are likely to see other roles in the wild.
+However, alignment with DDaT professions is not a given and on the ground when working with Central, Local or Arms Lengths Bodies wthin the Public Sector and you are likely to see other roles in the wild.
 
 ### Enterprise Architect
 
