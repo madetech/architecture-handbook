@@ -58,6 +58,7 @@
 - [Improve how you architect web apps](https://www.patterns.dev/)
 - [38 Actions and Insights to Become a Better Software Architect](https://medium.com/hackernoon/38-actions-and-insights-to-become-a-better-software-architect-f135e2de9a1b)
 - [Roadmap.sh - Software Architect](https://roadmap.sh/software-architect)
+- [Event Storming](https://www.eventstorming.com/)
 
 ## 💁 People
 - [Gregor Hohpe](https://architectelevator.com/about/)
