@@ -28,7 +28,7 @@ Another example is a Senior vs a Lead architect where the senior performs more s
 
 ![Senior Architect vs Lead Architect](../images/senior-vs-lead.png)
 
-You might want to **[map your strengths and skills](https://madetech.github.io/skills-radar-prototype/)** over the graphic above ? if you were to rate yourself in each area what would your radar look like ?
+You might want to **[map your strengths and skills](https://madetech.github.io/skills-radar/)** over the graphic above ? if you were to rate yourself in each area what would your radar look like ?
 
 Once you understand this you know your strengths and weaknesses and you can communicate that to your team, if someone on your team excels in an area you are weak then work together and learn from them!
 
