@@ -37,4 +37,4 @@ For Technical Leaders and Architects in Role
 ## ⚒️ Principles, Processes, Standards and Tools
 - [Principles](principles.md) that we have observed teams using to be successful
 - [Tools](principles/tools.md) that we find useful
-- [Interactive Skills Radar](https://madetech.github.io/skills-radar-prototype/) which you can use to gauge your architecture skills
+- [Interactive Skills Radar](https://madetech.github.io/skills-radar/) which you can use to gauge your architecture skills
