@@ -30,4 +30,10 @@ The SOLID principles for Object Oriented Programming are important to understand
 
 [SOLID Principles for Programming and Software Design](https://www.freecodecamp.org/news/solid-principles-for-programming-and-software-design/)
 
+## Code Decomposition
+
+Techniques to help break down code design into modular blocks (hint: so that agility as a quality attribute is met).
+
+- [CRC Cards to decompose code into classes](https://agilemodeling.com/artifacts/crcModel.htm)
+
 [< Back](../introducing_the_principles.md)
