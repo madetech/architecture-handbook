@@ -10,6 +10,7 @@ From the research conducted as part of Made Tech's internal [Architecture Discov
 - Have business domain knowledge and expertise to effectively communicate with business stakeholders
 - Possess interpersonal skills including teamwork, facilitation and leadership
 - Understand the political climate of the enterprise and be able to navigate the politics
+- Work closely with Product and the Business to give them **options**
 
 ## Common Questions ?
 
