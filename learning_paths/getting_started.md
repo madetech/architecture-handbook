@@ -5,6 +5,7 @@
 We recommend watching this video on the modern architecture approach which tackles, the role of IT, change and thinking like an architect.
 
 [The Software Architect Elevator](https://www.youtube.com/watch?v=Zq2VcRZmz78) - 52 minutes
+
 [Thinking like an Architect](https://www.youtube.com/watch?v=xtxfrxf0mfE) - 62 minutes
 
 ### Unicorn Project
