@@ -38,3 +38,4 @@ For Technical Leaders and Architects in Role
 - [Principles](principles.md) that we have observed teams using to be successful
 - [Tools](principles/tools.md) that we find useful
 - [Interactive Skills Radar](https://madetech.github.io/skills-radar/) which you can use to gauge your architecture skills
+- [Internal Tech Radar](https://miro.com/app/board/uXjVI3qqUr8=/?share_link_id=724709993521)
