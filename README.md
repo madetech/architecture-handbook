@@ -33,6 +33,7 @@ For Technical Leaders and Architects in Role
    - [📺 Videos](resources.md#videos)
    - [🌐 Web](resources.md#web)
    - [💁 People](resources.md#people)
+ - [Architect Onboarding Trello (Internal)](https://trello.com/b/3EkppnCt/technical-architect-onboarding-week-1)
 
 ## ⚒️ Principles, Processes, Standards and Tools
 - [Principles](principles.md) that we have observed teams using to be successful
