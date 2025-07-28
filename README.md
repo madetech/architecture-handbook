@@ -10,7 +10,8 @@
 - [28/03/2023 - Intro to Architecture Learning Paths Show and tell](https://drive.google.com/file/d/1vLe46uk2GHBQvl8khTwDhmXAZ7nw51wb/view?usp=drive_link)
 - [01/08/2023 - Structurizr: Software architecture models as code](https://drive.google.com/file/d/1K0jJHByLXzPSaO8f0ZCwHc4n7Ffy3Hrq/view)
 - [08/08/2023 - Hexagonal, Onion to Clean architecture and back](https://drive.google.com/file/d/1z2cpyb_sYOHj8Kq4ZAnaLts0aVwr9TvM/view)
-- [03/072025 - HMPPS and Prisoner Finance, CoP Special](https://drive.google.com/file/d/1Jj1E51uIcZ2S8w5CWh-5yKJIQLb8WKdO/view?usp=sharing)
+- [03/07/2025 - HMPPS and Prisoner Finance, CoP Special](https://drive.google.com/file/d/1Jj1E51uIcZ2S8w5CWh-5yKJIQLb8WKdO/view?usp=sharing)
+- [24/07/2025 - Security Architecture, CoP Special](https://drive.google.com/file/d/1kuFkumTOlV82fZUlg1YiqAvDemdjIUo4/view?usp=sharing)
 
 ## Made Tech Community
 
