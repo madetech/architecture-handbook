@@ -23,6 +23,7 @@ For Technical Leaders and Architects in Role
 
 - [Playbook Part 1 - Holistic Thinking](https://docs.google.com/presentation/d/1RwBxzT37oZNXWZzJBgZ9e-IzXfYOlf7FnGIPdjEZV-Q/edit?usp=sharing)
 - [Trello Template](https://trello.com/b/YIcVgWde/architecture-playbook-template) for the playbook
+- [A guide to making smart architectural trade offs](https://docs.google.com/presentation/d/1Qmi2VzweV8nl4BaHxEMJ7-jp_BYUL5pg/edit?usp=sharing&ouid=106860531659383205231&rtpof=true&sd=true)
 
 ## 🌐 Our Blogs
 - [Is your technical architecture driving the right outcomes](https://www.madetech.com/blog/is-your-technical-architecture-driving-the-right-outcomes/?utm_content=305104948&utm_medium=social&utm_source=linkedin&hss_channel=lcp-276725)
