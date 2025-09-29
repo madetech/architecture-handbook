@@ -5,14 +5,16 @@
 
 ## 🗣️ Architecture COP talks (Made Tech internal only videos and decks)
 - [Architecture Discovery Playback Deck](https://docs.google.com/presentation/d/18MlrVItk6v-j92kSlDHtoE-NOpe7qwq7Ow_TIm6auDI/edit?usp=sharing)
-- [05/07/2022 - Architecture Function Discovery Show and Tell](https://drive.google.com/file/d/1Qk7DCHTXl_kxSt75-cjXpx6T0aYeuwSo/view?usp=sharing)
+- [05/07/2022 - Architecture Function Discovery Show and Tell](https://drive.google.com/file/d/1bt-WybDrsAncuf_stir0ueE9nPVHo4KW/view?usp=drive_link)
 - [22/11/2022 - Visualising Architecture with the C4 model](https://docs.google.com/presentation/d/1wXXkyTgoNJIgyD9MDuIlvi85uGHWjIgQhvOPKTNsrHo/edit?usp=sharing)
 - [28/03/2023 - Intro to Architecture Learning Paths Show and tell](https://drive.google.com/file/d/1vLe46uk2GHBQvl8khTwDhmXAZ7nw51wb/view?usp=drive_link)
-- [01/08/2023 - Structurizr: Software architecture models as code](https://drive.google.com/file/d/1K0jJHByLXzPSaO8f0ZCwHc4n7Ffy3Hrq/view)
-- [08/08/2023 - Hexagonal, Onion to Clean architecture and back](https://drive.google.com/file/d/1z2cpyb_sYOHj8Kq4ZAnaLts0aVwr9TvM/view)
+- [01/08/2023 - Structurizr: Software architecture models as code](https://drive.google.com/file/d/1mJ2TpHPmiwDel0GhoIQdVv87cXfTwLCf/view?usp=drive_link)
+- [08/08/2023 - Hexagonal, Onion to Clean architecture and back](https://docs.google.com/presentation/d/1bwsnqgwQv_i06mQVnOS48lQIWmAimYTw9s-Vgo07iLc/edit?slide=id.g25edbc8474a_0_0#slide=id.g25edbc8474a_0_0)
 - [03/07/2025 - HMPPS and Prisoner Finance, CoP Special](https://drive.google.com/file/d/1Jj1E51uIcZ2S8w5CWh-5yKJIQLb8WKdO/view?usp=drive_link)
 - [24/07/2025 - Security Architecture, CoP Special](https://drive.google.com/file/d/1kuFkumTOlV82fZUlg1YiqAvDemdjIUo4/view?usp=drive_link)
 - [18/09/2025 - Archi at the DVLA](https://drive.google.com/file/d/1AmHplydzwLeWfIRxpzZRYD_QBageRpCu/view?usp=drive_link)
+
+- https://drive.google.com/file/d/1mJ2TpHPmiwDel0GhoIQdVv87cXfTwLCf/view?usp=drive_link
 
 ## Made Tech Community
 - **#cop-architecture** - A place to get advice, find learning material, tools and track architecture news
