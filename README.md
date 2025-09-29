@@ -14,8 +14,6 @@
 - [24/07/2025 - Security Architecture, CoP Special](https://drive.google.com/file/d/1kuFkumTOlV82fZUlg1YiqAvDemdjIUo4/view?usp=drive_link)
 - [18/09/2025 - Archi at the DVLA](https://drive.google.com/file/d/1AmHplydzwLeWfIRxpzZRYD_QBageRpCu/view?usp=drive_link)
 
-- https://drive.google.com/file/d/1mJ2TpHPmiwDel0GhoIQdVv87cXfTwLCf/view?usp=drive_link
-
 ## Made Tech Community
 - **#cop-architecture** - A place to get advice, find learning material, tools and track architecture news
 - **#guild-systems-design** - A regular discussion group around solving real world problems
