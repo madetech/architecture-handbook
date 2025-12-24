@@ -2,136 +2,110 @@
 
 ## Executive Summary
 
-Software Architecture in large estates is a high-context, high-nuance discipline. While LLMs offer significant potential, their probabilistic nature makes them unsuitable for "black box" decision-making. This framework ensures that Agent Skills (automated capabilities) are applied only where they provide high leverage without compromising architectural integrity.
+Software Architecture in large estates is a high-context, high-nuance discipline. This framework ensures that Agent Skills (automated capabilities) are developed only to solve proven SDLC constraints and are structured to align with the technical requirements of the agentic environment.
 
 ---
 
-## 1. The Four Archetypes of Architectural AI
+## 1. The ROI Filter: The Bottleneck Test
 
-We categorize every "Agent Skill" into one of four archetypes based on the Decision Flow. Understanding these prevents the "Safety/Utility Gap."
+Before any "Agent Skill" is developed, it must pass the **Bottleneck Test**.
 
-### The Enforcer (Hard Guardrail)
-
-**When to use:** When the rules are binary and the data is structured (e.g., JSON Tech Radars, Schema registries).
-
-**The Logic:** The Agent doesn't "guess"; it triggers a deterministic script.
-
-**Value:** Removes the "governance tax" from architects by automating routine compliance checks.
-
-### The Librarian (Discovery & Search)
-
-**When to use:** When you need to find "needles in haystacks" across thousands of historical documents.
-
-**The Logic:** Uses semantic search (RAG) to find context.
-
-**Value:** Solves the "Large Estate" problem by instantly surfacing relevant historical context that a human would spend hours finding.
-
-### The Mentor (Socratic Nudge)
-
-**When to use:** When the goal is to change team behavior or build "architectural muscle" in delivery teams.
-
-**The Logic:** Instead of giving answers, the Agent asks clarifying questions based on enterprise principles.
-
-**Value:** Scales the Architect's influence without creating a bottleneck.
-
-### The Human-Only Zone (Strategic Synthesis)
-
-**When to use:** High-volatility situations, social/political navigation, or high-impact "one-way door" decisions.
-
-**The Logic:** These require empathy, accountability, and tribal knowledge that LLMs lack.
-
-**Value:** Protects the organization from confident but context-blind AI hallucinations.
+* **The Rule:** No skill is developed unless it alleviates a measured delay in the SDLC (e.g., PR Review Latency, Documentation Upkeep, or Incident Triage).
+* **The Logic:** "An hour saved on something that isn't the bottleneck is worthless." We prioritize automation where the human flow is currently stalled.
 
 ---
 
-## 2. Key Evaluation Questions (The Deep Dive)
+## 2. Implementation Strategy: Skill Components
 
-### The Data Stability Test
+An Agent Skill is a directory-based package. Based on the task archetype, we provide different assets within the `.claude/skills/` folder structure.
 
-**The Nuance:** An Agent is only as good as its "Source of Truth." If your architecture is documented in decaying Word docs, an "Enforcer" will fail.
+### Level 1: The Discovery Layer (Metadata)
 
-**Strategy:** If your data is "Orange" (unstructured), build a Librarian, not an Enforcer.
+* **File:** `SKILL.md` (Frontmatter)
+* **Content:** Unique `name` and specific `description`.
+* **Behavior:** Always loaded; used by the agent to decide if the skill is relevant to the user's request.
 
-### The Volatility Test
+### Level 2: The Guidance Layer (Instructions)
 
-**The Nuance:** Architecture is "frozen history" vs. "fluid strategy." LLMs struggle with "Fluid" context.
+* **File:** `SKILL.md` (Body)
+* **Content:** Natural language instructions, Socratic nudges, or pattern-matching rules.
+* **Behavior:** Loaded only when the skill is triggered.
 
-**Strategy:** For rapidly changing projects, use Agents to track changes (summarize deltas) rather than judging them.
+### Level 3: The Resource Layer (Supporting Files)
 
-### The Mentorship Test
-
-**The Nuance:** True leadership is about enabling teams, not controlling them.
-
-**Strategy:** A "Blue" skill should point to a human or a principle.
-
-**Examples:**
-- **Bad AI:** "Don't use DynamoDB."
-- **Good AI:** "ADR-09 suggested we avoid NoSQL for ledger data. How does your use case differ?"
+* **Folders:** `/references`, `/scripts`, `/assets`
+* **Content:** Python/Bash scripts for validation, Markdown ADRs, YAML schemas, or checklists.
+* **Behavior:** Accessed by the agent only when explicitly needed.
 
 ---
 
-## 3. Implementation Matrix
+## 3. The Four Archetypes of Architectural AI
 
-Use this table to quickly categorize a new skill idea:
+Understanding these archetypes dictates which "Level" of assets you need to prioritize during development.
 
-| Skill Name | Data Source | Logic Type | Resulting Archetype |
-|------------|-------------|------------|---------------------|
-| Tech Radar Check | YAML File | Deterministic | Enforcer |
-| ADR Researcher | Markdown Docs | Semantic Search | Librarian |
-| Principle Nudge | Text Handbook | Socratic | Mentor |
-| Cloud Migration Strategy | Tribal Knowledge | Human Reasoning | Human-Only |
+| Archetype | Logic Goal | Primary Assets | Primary Bottleneck |
+| --- | --- | --- | --- |
+| **The Enforcer** | **Precision** | `/scripts` & YAML Schemas | Governance/Compliance Lag |
+| **The Librarian** | **Discovery** | `/references` (Markdown/Logs) | Discovery & Research Time |
+| **The Mentor** | **Behavior** | `SKILL.md` Instructions | Review Latency / Skill Gaps |
+| **The Assistant** | **Execution** | `/assets` & Templates | Administrative / Toil tasks |
 
 ---
 
 ## 4. Operational Guardrails
 
-To ensure success, every Agent Skill must follow these three rules:
-
-1. **Citations are Mandatory:** No "Information" skill can provide an answer without a link to the source document.
-
-2. **Explicit Uncertainty:** If the data score for a search is low, the Agent must state: "I couldn't find a definitive rule, please consult [Architect Name]."
-
-3. **Human-in-the-loop (HITL):** For any "Yellow" or "Orange" path, the AI's output is a draft for a human to approve.
+1. **Citations are Mandatory:** No response from a `/references` asset is valid without a link to the source document.
+2. **Explicit Uncertainty:** If confidence in a search is low, the agent must defer to a human architect.
+3. **Human-in-the-loop (HITL):** AI output for synthesis tasks remains a "Draft" until signed off by a human.
+4. **Experience Sampling:** Consider capturing a "Helpful/Not Helpful" score for every invocation to track the **Developer Experience Index (DXI)**.
 
 ---
 
-## Decision Flow Diagram
-
-The following diagram provides a visual representation of the decision-making process for categorizing and implementing Agent Skills:
+## 5. Decision Flow: From Bottleneck to Folder Structure
 
 ```mermaid
 graph TD
-    Start([Idea for an 'Agent Skill']) --> Q1{Nature of Task?}
 
-    Q1 -- Deterministic / Policy --> Q2{Is the Source Data Stable & Structured?}
-    Q1 -- Synthesis / Judgment --> Q3{Is Context High-Volatility?}
+    Start([Opportunity for AI Skill]) --> B1{Is this a known SDLC Bottleneck?}
+    B1 -- No --> Stop([STOP: Re-evaluate Priorities])
+    B1 -- Yes --> Q1{Nature of Task?}
+
+    Q1 -- Deterministic Policy --> Q2{Is the Rule/Schema Structured?}
+    Q1 -- Judgment / Synthesis --> Q3{Is Context High-Volatility?}
 
     %% Deterministic Path
-    Q2 -- Yes --> Q4[BUILD: Use as a 'Hard Guardrail']
-    Q2 -- No (Legacy/Docs) --> Q5[BUILD: Use as a 'Context Surfacing' tool]
+    Q2 -- Yes (YAML/JSON) --> Q4[SKILL TYPE: 'Enforcer']
+    Q4 --> A4[FOLDER: /scripts <br/>Add validation scripts & schemas]
+
+    Q2 -- No (Unstructured) --> Q5[SKILL TYPE: 'Librarian']
+    Q5 --> A5[FOLDER: /references <br/>Add Markdown docs & text logs]
 
     %% Synthesis Path
     Q3 -- Yes (Rapidly Changing) --> Q6{Is Social Nuance Required?}
-    Q3 -- No (Historical/Fixed) --> Q7[BUILD: Use for 'Discovery & Search']
+    Q3 -- No (Historical/Fixed) --> Q7[SKILL TYPE: 'Librarian']
+    Q7 --> A7[FOLDER: /references <br/>Add historical ADRs/Wikis]
 
     %% Coaching Path
-    Q6 -- Yes (Mentorship) --> Q8[BUILD: 'Socratic Nudge' No active decisioning]
-    Q6 -- No (Pure Technical) --> Q9{Risk of Hallucination?}
+    Q6 -- Yes (Mentorship) --> Q8[SKILL TYPE: 'Mentor']
+    Q8 --> A8[FILE: SKILL.md body <br/>Add Socratic instructions]
+
+    Q6 -- No --> Q9{Risk of Hallucination?}
 
     %% Risk Assessment
     Q9 -- High Impact --> Q10[STOP: Keep as Human-Only Task]
-    Q9 -- Low Impact --> Q11[BUILD: 'Assistant' mode with Human-in-the-loop]
+    Q9 -- Low Impact --> Q11[SKILL TYPE: 'Assistant']
+    Q11 --> A11[FOLDER: /assets <br/>Add templates & checklists]
 
     %% Styles
-    style Q4 fill:#2ECC71,stroke:#27AE60,color:#fff  %% Green: Go for automation
-    style Q5 fill:#E67E22,stroke:#D35400,color:#fff  %% Orange: Warning Unstable Data
-    style Q7 fill:#9B59B6,stroke:#8E44AD,color:#fff  %% Purple: Knowledge/Discovery
-    style Q8 fill:#3498DB,stroke:#2980B9,color:#fff  %% Blue: Mandatory/Coaching
-    style Q10 fill:#E74C3C,stroke:#C0392B,color:#fff %% Red: Danger/Human-Only
-    style Q11 fill:#F1C40F,stroke:#F39C12,color:#000 %% Yellow: Caution
-```
+    style Q4 fill:#2ECC71,stroke:#27AE60,color:#fff
+    style Q5 fill:#E67E22,stroke:#D35400,color:#fff
+    style Q7 fill:#9B59B6,stroke:#8E44AD,color:#fff
+    style Q8 fill:#3498DB,stroke:#2980B9,color:#fff
+    style Q10 fill:#E74C3C,stroke:#C0392B,color:#fff
+    style Q11 fill:#F1C40F,stroke:#F39C12,color:#000
+    style Stop fill:#E74C3C,stroke:#C0392B,color:#fff
 
----
+```
 
 ## Conclusion
 
