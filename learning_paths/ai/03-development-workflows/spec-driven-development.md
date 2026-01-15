@@ -272,7 +272,6 @@ File: src/services/UserServiceTest.java
 3. Enable for 1% of users
 4. Monitor for 24 hours
 5. Ramp to 100%
-```
 
 **Where architectural decisions happen**:
 - Complex logic correctness
