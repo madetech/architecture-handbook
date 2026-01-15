@@ -143,7 +143,7 @@ graph TD
 
 ---
 
-## Advanced Mitigation Strategies
+## Advanced Mitigation Strategies (AI Generated)
 
 ### 1. Layered Defenses (Defense in Depth)
 
