@@ -48,6 +48,27 @@
 - It provides practical advice
 - About £40 on [Amazon](https://www.amazon.co.uk/gp/product/0984618104) but the ebook is available for £7.99 [on George Fairbanks' own website](https://www.georgefairbanks.com/e-book/)
 
+### Building Secure & Reliable Systems
+[![Building Secure and Reliable Systems](/images/books/building%20secure%20and%20reliable%20systems.jpg)](https://amzn.eu/d/hZVPXMC)
+- [Available to read **Free** online, courtesy of Google](https://google.github.io/building-secure-and-reliable-systems/raw/toc.html)
+- Also Available on [Amazon](https://amzn.eu/d/hZVPXMC)
+  - £50 for paperback
+  - £35 digital
+- General guide to a wide variety of issues in software deployment
+- Very google focussed, many of the Authors worked for Google whilst writing this.
+- Strong emphasis on designing for reliability. Essentially this is an SRE book, but its scope covers many areas of system design.
+
+
+### Software Architecture Metrics
+[![Software Architecture Metrics](/images/books/software%20architecture%20metrics.jpg)(https://amzn.eu/d/fAwop90)]
+- Deeper into Architecture
+- A common question is "What does success look like"
+- This book goes through a number of techniques to help understand what success is, how we can quantify success, and check that a project is being successfull
+- Teaches about fitness functions
+- Teachs Goal Question Metric (GQM) Approach
+- Focus on case studies, and extracting metrics which are relevant
+- £30-40 on [Amazon](https://amzn.eu/d/fAwop90)
+
 ## 📺 Videos
 - [The Software Architect Elevator](https://www.youtube.com/watch?v=Zq2VcRZmz78)
 - [Hexagonal, Onion & Clean Architecture](https://www.youtube.com/watch?v=JubdZIdLQ4M)
@@ -59,6 +80,7 @@
 - [38 Actions and Insights to Become a Better Software Architect](https://medium.com/hackernoon/38-actions-and-insights-to-become-a-better-software-architect-f135e2de9a1b)
 - [Roadmap.sh - Software Architect](https://roadmap.sh/software-architect)
 - [Event Storming](https://www.eventstorming.com/)
+
 
 ## 💁 People
 - [Gregor Hohpe](https://architectelevator.com/about/)
