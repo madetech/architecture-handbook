@@ -60,7 +60,7 @@
 
 
 ### Software Architecture Metrics
-[![Software Architecture Metrics](/images/books/software%20architecture%20metrics.jpg)(https://amzn.eu/d/fAwop90)]
+[![Software Architecture Metrics](/images/books/software%20architecture%20metrics.jpg)](https://amzn.eu/d/fAwop90)
 - Deeper into Architecture
 - A common question is "What does success look like"
 - This book goes through a number of techniques to help understand what success is, how we can quantify success, and check that a project is being successfull
