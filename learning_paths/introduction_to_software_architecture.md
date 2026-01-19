@@ -40,6 +40,10 @@ Architecture is part of a value chain, issues early in the chain manifest later 
 
 - [The skills and behaviours of an Architect](./skills_of_an_architect.md)
 
+# AI Learning Path for Technical Architects
+
+- [AI Learning Path for Technical Architects](./ai/README.md)
+
 # Learning Material
 
 - [Getting Started](./getting_started.md)
