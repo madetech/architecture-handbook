@@ -2,6 +2,8 @@
 ## 🏫 Learning Paths
 - [Introduction to Software Architecture](learning_paths/introduction_to_software_architecture.md)
 - [Visualising Architecture for Developers](learning_paths/visualising_architecture/1_why_visualise.md)
+- [Software Principles](/learning_paths/software/README.md)
+- [AI Learning Path for Technical Architects](/learning_paths/ai/README.md)
 
 ## 🗣️ Architecture COP talks (Made Tech internal only videos and decks)
 - [Architecture Discovery Playback Deck](https://docs.google.com/presentation/d/18MlrVItk6v-j92kSlDHtoE-NOpe7qwq7Ow_TIm6auDI/edit?usp=sharing)
