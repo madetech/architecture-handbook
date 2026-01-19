@@ -9,5 +9,5 @@
 7. [Getting started](getting_started.md)
 8. [Introducing the principles](introducing_the_principles.md)
 9. [Day to day Behaviours](continious_behaviours.md)
-10. [Visalising Architecture](visualising_architecture.md)
-11. [AI Learning Path for Technical Architects](/ai/README.md)
+10. [Visualising Architecture](visualising_architecture.md)
+11. [AI Learning Path for Technical Architects](./ai/README.md)
