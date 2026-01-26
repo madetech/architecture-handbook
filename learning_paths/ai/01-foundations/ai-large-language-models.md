@@ -73,7 +73,7 @@ graph TD
 
 ### LLMs take a large amount of energy to build and run
 
-```
+```mermaid
 treemap-beta
 "Tokens"
     "Gpt-1 2018": 117,000,000
@@ -107,7 +107,7 @@ Analogy — choosing an outfit
 
 Temperature is a scalar property that controls the results you get back from a query.  This property can be adjusted on a per-query basis and determines how 'creative' the model is. It can be thought of as controlling how peaked or flat the next-token distribution becomes. Low values (close to 0) make the distribution sharp so the highest-probability token dominates; higher values flatten the distribution, raising the chance of less-likely tokens and increasing variety. 
 
-Quick example (simplified): the next-token probabilities might be — "shirt": 0.6, "jacket": 0.25, "scarf": 0.1, "hat": 0.05.
+Quick example (simplified): the next-token probabilities might be — "shirt": 0.09, "jacket": 0.25, "scarf": 0.1, "hat": 0.05.
 - Greedy -> "shirt".
 - Sampling with `temperature=1.0` -> might pick "jacket" or "scarf", producing a different but acceptable outfit.
 

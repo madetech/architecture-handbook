@@ -38,7 +38,7 @@ Techniques to help break down code design into modular blocks (hint: so that agi
 
 ## Code Quality
 
-Code quality has three [ri,ary characteristics]: 
+Code quality has three [primary characteristics]: 
 
 - Maintainability
 - Reliability
@@ -64,14 +64,17 @@ Reliable code breaks less often, and with visibly.
 - Tests cover the code
 - Error handling covers errors
   - Normal conditions are not errors
-  - Errors are wirt
+  - Errors are worthy
+    - Consider the person reading the logs - does the error require action immediately, on accumulation, or not at all? 
 
 ### Operatability
 
 Code generates digital artifacts that:
-- Do what is required
-- Do it with minimal resource use
-- Fail loudly, but not too loudly
+- Do what is required,
+  - and produce actionable logs and alerts when that can't happen
+- Fail loudly, 
+  - but not verbose in normal operation.
 - Is kind to the resource it runs upon
+  - but is kinder to the users time.
 
 [< Back](../introducing_the_principles.md)
