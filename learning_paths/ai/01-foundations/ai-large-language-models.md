@@ -11,23 +11,22 @@
 ### Videos
 
 - **[Eye on Tech Overview](https://youtu.be/zKndCikg3R0?si=QwCdSOAT5LzcKla8)**
-  - Describes What an LLM is, and how they work
-- **[Computerphile deeper Dive](https://youtu.be/rURRYI66E54?si=I6UA1pvfKBkevhzD)**
-  - more in depth of of you of what LLM is and how it works
+  - Describes what an LLM is and how they work
+- **[Computerphile Deeper Dive](https://youtu.be/rURRYI66E54?si=I6UA1pvfKBkevhzD)**
+  - More in-depth information about what an LLM is and how it works
   - includes more detail on how it works and how to make one
 
-## why this matters
+## Why This Matters
 
+Large language models (LLMs) are the backbone technology for modern AI and agentic systems. Knowing how these work is fundamental to understanding their features and limitations.
 
-Large language models (LLM) are the backbone technology we have modern AI and agent AI agent systems. Knowing how these work is fundamental to understanding their features and limitations.
-
- As a technical architect, we should be able to select and justify our choice in LLM models and how they solve a given problem.
+ As a technical architect, we should be able to select and justify our choice of LLM model and how it solves a given problem.
  
 ## Key Concepts
 
-### LLMs's are a tool,   
+### LLMs Are a Tool
 
-Large language models are a technology that enables computers to understand human language. The definition of a large language model is a moving target. Although large language models share a number of similarities. 
+Large language models are a technology that enables computers to understand human language. The definition of a large language model is a moving target. Although large language models share a number of similarities, 
 
 ``` mermaid
 timeline
@@ -42,15 +41,15 @@ timeline
     2022 : ChatGPT
 ```
 
-Technologically the 'bag of words' model is a non-transformer model which means text is not transformed into the model and out of in the more modern way. This is an early attempt to map words into vectors.  
+Technologically, the 'bag of words' model is a non-transformer model, which means text is not transformed into and out of the model in the way modern approaches do. This is an early attempt to map words into vectors.  
 
-The word2vec model took the bag of words model, and attempted to add the meanings of words by embedding meaning into the vectors representing the word. The word2vec model does this by looking at the probability that words are neighbours in a sentence. 
+The Word2Vec model took the bag of words approach and attempted to add meaning by embedding semantics into the vectors representing each word. The Word2Vec model does this by examining the probability that words are neighbors in a sentence. 
 
-BERT (Bidirectional Encoder Representations From Transformers) is an early encoder only protocol that encodes language into a model. This technology allows us to generate a pretrained model that we can use for other purposes. encoder models like BERt are known as representational models.
+BERT (Bidirectional Encoder Representations From Transformers) is an early encoder-only model that encodes language. This technology allows us to generate pretrained models that we can use for other purposes. Encoder models like BERT are known as representational models.
 
-GPT (Generative Pre-trained Transformer) is a decoder protocol that allows us to generate meaning from a model that is already generated. Since we use these models to generate text, these are also known as generative models.
+GPT (Generative Pre-trained Transformer) is a decoder model that allows us to generate text from learned representations. Since we use these models to generate text, these are also known as generative models.
 
-The term LLM refers to both the encoding and decoding, or "generative" and "representational" models. There are also models such as T5 which encompass both the generative and representational functions of an LLM.
+The term LLM refers to both encoding and decoding, or "generative" and "representational" models. There are also models such as T5 that encompass both generative and representational functions.
 
 
 ```mermaid
@@ -81,84 +80,88 @@ treemap-beta
     "Gpt-3 2020": 175,000,000,000
 ```
 
-Since we started generating large language models we've used larger and larger data sets to generate them. The tree above shows the number of tokens used in training GPT 1, 2 and 3. What it shows is that later models dwarf smaller models. Although models are available that will fit on a standard laptop, particularly through ollama, the majority of LLMs will be cloud based. Privacy and intellectual property considerations aside we should consider the environmental costs as a trade-off when designing systems that use LLM based AI. There are also considerations with high value data in terms of privacy and security. One should not send data of any form without knowing what it's going to be used for. 
+Since we started generating large language models, we've used increasingly large datasets to train them. The treemap above shows the number of tokens used in training GPT-1, GPT-2, and GPT-3, demonstrating that later models significantly outscale earlier ones. Although models are available that fit on a standard laptop—particularly through Ollama—the majority of LLMs are cloud-based. Aside from privacy and intellectual property considerations, we should weigh the environmental costs when designing systems that use LLM-based AI. There are also privacy and security considerations with sensitive data. One should never send any data without knowing how it will be used. 
 
-A particular case should be noted for software development using an LLM. The quality of training data affects the quality of generated text. This is particularly evident when the training data we are looking at is code. Github and Stack Overflow were large repositories used in training LLMs. It should be noted that open source projects vary in quality from a very few examples of very high-quality code, to a massive body of local code generated by students learning to code. Think about this in terms of your own career progression. When you started learning to code the quality of your code was not as fantastic as it is now, but you were keen to put it on GitHub. By the time he become a senior engineer, your code is approaching brilliant, but most likely in a private repository for your employer/client. Similarly, every post in Slack overflow starts with a snippet of code that does not work, and his answered by 4 to 5 examples of code of which one works. Or at least it worked in 2015 before Python had type hints and C Sharp had records. Before 94% of the node libraries that you used in the last year had been dreamed of, and before clean architecture was a thing. 
-
-
-### LLMs use probability functions to determine output that "look right".
+Software development using an LLM presents a particular case. The quality of training data directly affects the quality of generated text. This is especially evident for code generation, where GitHub and Stack Overflow were large repositories used in training. Open source projects vary widely in quality—from excellent examples to a massive body of code generated by students learning to program. Think about this in terms of your own career progression. When you started learning to code, the quality of your code was not as good as it is now, but you were eager to share it on GitHub. By the time you became a senior engineer, your code approached excellence, but it was likely in a private repository for your employer or client. Similarly, every post on Stack Overflow starts with a code snippet that doesn't work and is answered with 4 or 5 code examples, of which one works. Or at least it worked in 2015, before Python had type hints and C# had records—before 94% of the Node.js libraries you used last year had been created, and before clean architecture became mainstream. 
 
 
+### LLMs Use Probability Functions to Generate Output That "Looks Right"
 
-LLMs generate text one token at a time by assigning a probability to each possible next token. The model computes raw scores (logits) for all tokens and turns them into a probability distribution via `softmax`. Decoding strategies then select tokens from that distribution — the choice of strategy determines whether the output is predictable or creative.
+
+
+LLMs generate text one token at a time by assigning a probability to each possible next token. The model computes raw scores (logits) for all tokens and converts them into a probability distribution via `softmax`. Decoding strategies then select tokens from that distribution—the choice of strategy determines whether the output is predictable or creative.
 
 - `Greedy`: pick the single highest-probability token. Safe but can be repetitive.
 - `Beam search`: track several high-probability candidate sequences for more coherent results.
 - `Sampling` (controlled by `temperature`, `top-k`, `top-p`): introduce randomness to allow variety and creativity.
 
-Analogy — choosing an outfit
-- Context (weather, occasion, personal style) is like the model's prompt.
-- The model's probability distribution is like a wardrobe ranked by suitability.
-- Greedy selection is picking the single most appropriate item every time (the same outfit).
-- Sampling with a higher `temperature` lets less-likely but still-plausible items be chosen (trying a scarf or a statement jacket).
-- `Top-k`/`top-p` limit choices to a sensible subset (only choose from shoes that match the outfit).
+### Analogy: Choosing an Outfit
+- **Context** (weather, occasion, personal style) is like the model's prompt.
+- **Probability distribution** is like a wardrobe ranked by suitability.
+- **Greedy selection** picks the highest-probability item every time (always the same outfit).
+- **Sampling** with higher `temperature` allows less-likely but plausible items to be chosen (trying a scarf or statement jacket).
+- **Top-k/top-p** limit choices to a sensible subset (only selecting shoes that match the outfit).
 
-#### Temperature 
+#### Temperature
 
-Temperature is a scalar property that controls the results you get back from a query.  This property can be adjusted on a per-query basis and determines how 'creative' the model is. It can be thought of as controlling how peaked or flat the next-token distribution becomes. Low values (close to 0) make the distribution sharp so the highest-probability token dominates; higher values flatten the distribution, raising the chance of less-likely tokens and increasing variety. 
+Temperature is a parameter that controls the results from a model. This property can be adjusted per query and determines how 'creative' the model is. It controls how peaked or flat the next-token probability distribution becomes. Low values (close to 0) make the distribution sharp, so the highest-probability token dominates; higher values flatten the distribution, increasing the chance of less-likely tokens and enabling variety. 
 
-Quick example (simplified): the next-token probabilities might be — "shirt": 0.09, "jacket": 0.25, "scarf": 0.1, "hat": 0.05.
-- Greedy -> "shirt".
-- Sampling with `temperature=1.0` -> might pick "jacket" or "scarf", producing a different but acceptable outfit.
+Quick example (simplified): the next-token probabilities might be—"shirt": 0.09, "jacket": 0.25, "scarf": 0.10, "hat": 0.05.
+- **Greedy**: selects "shirt"
+- **Sampling** with `temperature=1.0`: might pick "jacket" or "scarf", producing a different but acceptable outfit
 
-Practical implications
-- Use low `temperature` (0 - 0.3) for factual or deterministic outputs.
-- Use higher `temperature`(0.7 - 1.0) for creative writing or brainstorming.
-- Be aware sampling increases the chance of unexpected or incorrect tokens (hallucinations), so add checks where correctness matters.
+### Practical Implications
+- Use low `temperature` (0–0.3) for factual or deterministic outputs.
+- Use higher `temperature` (0.7–1.0) for creative writing or brainstorming.
+- Be aware that sampling increases the chance of unexpected or incorrect tokens (hallucinations), so add validation where correctness matters.
 
-Guidance: set `temperature` low (e.g 0 – 0.3) for precise, repeatable outputs and higher (e.g., 0.7 – 1.0) for creative tasks. Values above 1 increase unpredictability and the risk of incoherence. For finer control we can combine temperature with `top-k`/`top-p` and validation when accuracy matters.
+**Guidance**: Set `temperature` low (e.g., 0–0.3) for precise, repeatable outputs and higher (e.g., 0.7–1.0) for creative tasks. Values above 1.0 increase unpredictability and the risk of incoherence. For finer control, combine temperature with `top-k`/`top-p` and validation when accuracy matters.
 
-In short: LLMs do not "know" truth — they rank token plausibility. Decoding choices (greedy, beam, sampling) determine whether the model returns the most probable, a coherent, or a creative sequence — much like choosing an outfit that simply "looks right" vs experimenting with style.
+In short: LLMs don't "know" truth—they rank token plausibility. Decoding choices (greedy, beam, sampling) determine whether the model returns the most probable, a coherent, or a creative sequence, much like choosing an outfit that "looks right" versus experimenting with style.
 
 
-### Models are trained on a data set at a point in time.
+### Models Are Trained on Data at a Point in Time
 
-Models are trained on large snapshots of text and code collected up to a specific cutoff date. That means the model's knowledge — including language syntax, library APIs, and best practices — reflects what existed in its training data at that time. Any language features, standard-library additions, or ecosystem changes released after the model's cutoff are not part of its learned knowledge: the model cannot reliably invent accurate details about features it was never exposed to.
+Models are trained on large snapshots of text and code collected up to a specific cutoff date. This means the model's knowledge—including language syntax, library APIs, and best practices—reflects what existed in its training data at that time. Any language features, standard-library additions, or ecosystem changes released after the model's cutoff are not part of its learned knowledge—the model cannot reliably invent accurate details about features it never encountered.
 
-For code generation this has practical consequences:
-- Missing new syntax or APIs: the model may not recognise or produce language features introduced after its training cutoff, or it may propose outdated alternatives.
-- Outdated idioms and patterns: generated code can follow older conventions or libraries that have since been deprecated or replaced.
-- Plausible but incorrect implementations: the model often writes code that looks syntactically plausible but can fail at runtime, misuse APIs, or ignore edge cases.
+For code generation, this has practical consequences:
+- **Missing new syntax or APIs**: the model may not recognize or produce language features introduced after its training cutoff, or it may propose outdated alternatives.
+- **Outdated idioms and patterns**: generated code can follow older conventions or libraries that have since been deprecated or replaced.
+- **Plausible but incorrect implementations**: the model often writes code that appears syntactically correct but can fail at runtime, misuse APIs, or ignore edge cases.
 
-Mitigations and best practices when using LLMs for code:
-- Explicitly state the target language and version in the prompt (for example, "Generate Go code targeting Go 1.20") so the model has concrete constraints to follow.
-- Provide current documentation or small, authoritative code examples in the prompt (prompt engineering / context augmentation) to give the model up-to-date references.
-- Use retrieval-augmented generation (RAG) or tool integrations to surface the latest documentation and package APIs at runtime rather than relying solely on the model's static knowledge.
-- Validate generated code automatically: run linters, type-checkers, unit tests and try executing snippets in a sandboxed environment to detect errors early.
+### Mitigations and Best Practices for Code Generation
+- Explicitly state the target language and version in the prompt (for example, "Generate Go code targeting Go 1.20") so the model has concrete constraints.
+- Provide current documentation or small, authoritative code examples in the prompt (prompt engineering or context augmentation) to give the model up-to-date references.
+- Use retrieval-augmented generation (RAG) or tool integrations to surface the latest documentation and APIs at runtime, rather than relying solely on the model's static knowledge.
+- Validate generated code automatically: run linters, type checkers, unit tests, and execute snippets in a sandboxed environment to catch errors early.
 - Prefer small, well-scoped tasks for automated generation (e.g., helper functions, boilerplate) and require human review for critical or complex logic.
 
-This applies also to non-code capabilities, but the shortcomings are often more evident in code.
+This applies to non-code capabilities as well, but the shortcomings are often more evident in code.
 
-In short: treat an LLM as a powerful assistant that operates over a historical snapshot of the web and code — useful for drafts and idea generation, but always pair generated code with explicit versioning, up-to-date references, and automated validation to avoid regressions from missing or newer language features.
+In short: treat an LLM as a powerful assistant operating over a historical snapshot of the web and code—useful for drafts and idea generation. However, always pair generated code with explicit versioning, up-to-date references, and automated validation to avoid issues from missing or newer language features.
 
-## Tradeoffs, or Selecting an LLM to use
+## Trade-offs: Selecting an LLM
 
-When we use an LLM, we have typically two options. Firstly, we may run the model from a cloud source. Secondly we may run the model from a local source using a technology such as [ollama](https://ollama.com). The size of the model affects both the and responsiveness of the model. There are a number of trade-offs to consider. 
+When using an LLM, we typically have two options: running the model from a cloud source or running it locally using a technology like [Ollama](https://ollama.com). The size of the model affects both the speed and responsiveness. There are several trade-offs to consider. 
 
-**Large** Language Models are by definition "large". Although large is a subjective measure it is important to realise that our use of LLMs is governed by this property.
+### Model Size
 
-For example looking at [qwen3-coder](https://ollama.com/library/qwen3-coder)
+Large Language Models are, by definition, "large." While size is subjective, it's important to realize that LLM usage is governed by this property.
 
-**Training Date** Language models are created a point in time. This means they know things upto that cutoff point ans no later. The time of training can affect outcomes. Particularly in fast evolving contexts such as software development.
+For example, look at [Qwen3-Coder](https://ollama.com/library/qwen3-coder):
 
-For example, more recent libraries may not be available to a language model. Older libraries and coding designs may have more examples to choose from. 
+### Training Date
 
-### Practical example
+Language models are created at a specific point in time. This means they know things up to that cutoff date and no later. The training date affects outcomes, particularly in rapidly evolving contexts like software development.
 
-For context: This is written in January 2026, with a C# focus - but all languages that are being deveopled will do the same. You may need to lookup a new language feature to do the same. later.
+For example, newer libraries may not be available to a language model, while older libraries and coding patterns have more training examples. 
 
-1. Check out your languages [new features](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14#the-field-keyword)
-2. Enter some of the old code example.
+### Practical Example
+
+For context: This is written in January 2026 with a C# focus, but all actively developed languages exhibit the same behavior. You may need to look up the equivalent feature for your language.
+
+1. Check your language's [new features](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14#the-field-keyword)
+2. Enter an old code example.
 
 ```
 private string _msg;
@@ -169,10 +172,9 @@ public string Message
 }
 ```
 
-3. Ask an AI Model trained prior to the features release, to refactor to the code using the new feature.
+3. Ask an AI model trained before the feature's release to refactor the code using the new feature.
 
-Outcome:
-This just will not work as the Model has no awareness of this feature.
+**Outcome**: The model won't refactor the code because it has no awareness of this feature.
 
 ## Related topics
 
@@ -186,20 +188,20 @@ Further reading within the AI learning path:
 
 ## Further Reading
 
-- **Hands-On Large Language models, Jay Alammar, Maarten GrootenDorst** - Good resource for understand understanding large language models the history and how they are used in general.
-- **Building LLM powered applications, Valentina Alto** - useful for understanding what LLMs do, how they can be used and what capabilities they give.
-- **LLM Engineers Handbook, Paul Iusztin** - more in depth guide to using and Evaluating LLMs
-- **Natural Language Processing with Transformers, Lewis Tunstall, Leandro Von Vara, Thomas Wolf** - 2022 book regarding some of the applications of LLMs at this stage. Particularly relevant to learning about how LLMs were perceived the year before they exploded. This book should be compulsory reading for anybody who haven't coded commercially prior to 2023.
-- **Attention Is All You Need (Vaswani et al., 2017)** — original transformer paper explaining self-attention and the architecture that underpins modern LLMs. https://arxiv.org/abs/1706.03762
-- **Language Models are Few-Shot Learners (Brown et al., 2020)** — GPT-3 paper, useful for understanding scale, pretraining and few-shot behaviours. https://arxiv.org/abs/2005.14165
-- **The Curious Case of Neural Text Degeneration (Holtzman et al., 2020)** — introduces nucleus (top-p) sampling and explains why simple greedy decoding can fail. https://arxiv.org/abs/1904.09751
-- **The Illustrated Transformer (Jay Alammar)** — visual, accessible walk-through of transformer internals. https://jalammar.github.io/illustrated-transformer/
-- **Hugging Face - Transformers documentation** — practical API reference and model hub for experimentation. https://huggingface.co/docs/transformers
-- **OpenAI API / Model docs** — guidance on prompting, sampling parameters (`temperature`, `top_k`, `top_p`) and best practices. https://platform.openai.com/docs
-- **On the Dangers of Stochastic Parrots (Bender et al.)** — discussion of dataset, bias and ethical considerations when relying on large pre-trained models. https://dl.acm.org/doi/10.1145/3442188.3445922
-- **Evaluating large language models trained on code / Codex research** — research and reports on code generation capabilities and limitations; useful for understanding failure modes and evaluation metrics. Example: https://arxiv.org/abs/2107.03374
+- **Hands-On Large Language Models**, Jay Alammar, Maarten Grootendorst – A good resource for understanding large language models, their history, and general applications.
+- **Building LLM Powered Applications**, Valentina Alto – Useful for understanding what LLMs do, how to use them, and what capabilities they provide.
+- **LLM Engineers Handbook**, Paul Iusztin – An in-depth guide to using and evaluating LLMs.
+- **Natural Language Processing with Transformers**, Lewis Tunstall, Leandro Von Vaswani, Thomas Wolf – A 2022 book on LLM applications. Particularly relevant for understanding how LLMs were perceived before their explosive growth. Recommended reading for anyone who didn't code professionally before 2023.
+- **Attention Is All You Need** (Vaswani et al., 2017) – The original transformer paper explaining self-attention and the architecture that underpins modern LLMs. https://arxiv.org/abs/1706.03762
+- **Language Models are Few-Shot Learners** (Brown et al., 2020) – The GPT-3 paper; useful for understanding scale, pretraining, and few-shot behavior. https://arxiv.org/abs/2005.14165
+- **The Curious Case of Neural Text Degeneration** (Holtzman et al., 2020) – Introduces nucleus (top-p) sampling and explains why simple greedy decoding can fail. https://arxiv.org/abs/1904.09751
+- **The Illustrated Transformer** (Jay Alammar) – A visual, accessible walkthrough of transformer internals. https://jalammar.github.io/illustrated-transformer/
+- **Hugging Face – Transformers Documentation** – A practical API reference and model hub for experimentation. https://huggingface.co/docs/transformers
+- **OpenAI API and Model Documentation** – Guidance on prompting, sampling parameters (`temperature`, `top_k`, `top_p`), and best practices. https://platform.openai.com/docs
+- **On the Dangers of Stochastic Parrots** (Bender et al.) – A discussion of datasets, bias, and ethical considerations when relying on large pre-trained models. https://dl.acm.org/doi/10.1145/3442188.3445922
+- **Evaluating Large Language Models Trained on Code (Codex Research)** – Research and reports on code generation capabilities and limitations; useful for understanding failure modes and evaluation metrics. Example: https://arxiv.org/abs/2107.03374
 
-Practical tutorials and validation
+## Practical Tutorials and Validation
 
-- **Prompt engineering & retrieval-augmented generation (RAG)** — see the `prompt-engineering` and `rag-architecture` guides in this repo for hands-on examples.
-- **Testing generated code** — run linters, type-checkers and tests in sandboxed environments; add these steps to CI for systems that accept auto-generated code.
+- **Prompt Engineering & Retrieval-Augmented Generation (RAG)** – See the `prompt-engineering` and `rag-architecture` guides in this repository for hands-on examples.
+- **Testing Generated Code** – Run linters, type checkers, and tests in sandboxed environments; add these steps to CI for systems that accept auto-generated code.
