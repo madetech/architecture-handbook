@@ -46,3 +46,4 @@ For Technical Leaders and Architects in Role
 - [Interactive Skills Radar](https://madetech.github.io/skills-radar/) which you can use to gauge your architecture skills
 - [Internal Tech Radar](https://miro.com/app/board/uXjVI3qqUr8=/?share_link_id=724709993521)
 - [Architecture health check questionnaire](https://docs.google.com/spreadsheets/d/1zQWIWf80eK6i0kjhB_GeAUZ47TrtFz0UWEq1y0F0W_4/edit?usp=sharing) Internal tool to quickly assess technical risk for deliveries
+- [Techniques and Tactics](/techniques_tactics/index.md) to foster collaboration.
