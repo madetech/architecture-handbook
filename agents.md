@@ -6,8 +6,6 @@ This document provides context and guidelines for AI agents working with the Arc
 
 The Architecture Handbook is a comprehensive guide for technical architects and leaders at Made Tech. It covers software architecture principles, learning paths, tools, techniques, and modern practices including AI and agentic systems.
 
-**Repository Location**: `/Users/brian/Projects/architecture-handbook`
-
 ### Purpose
 - Educational resource for architects and technical leaders
 - Documentation of proven architectural principles and patterns
@@ -130,7 +128,7 @@ Practical, actionable guidance for architects:
 - Implementation frameworks
 
 ### Tools & Techniques (`tools_techniques_tactics/`)
-Detailed guides on specific methodologies:
+Brief guides on specific methodologies:
 - Impact mapping (lightweight collaborative planning)
 - Facilitation techniques
 - Decision-making frameworks
@@ -234,7 +232,13 @@ Each learning module includes:
 #### New Tool or Technique
 1. Create subdirectory in `tools_techniques_tactics/`
 2. Follow naming convention: `kebab-case-name/`
-3. Use same content structure as learning modules
+3. Use headings, where X is the technique or strategy under discussion
+  - What is X
+  - Why is X useful
+  - When to use X, 
+    - include when not to
+  - How to do X
+  - Further reading
 4. Fetch external resources where appropriate (e.g., official websites)
 5. Synthesize information clearly
 
@@ -263,6 +267,7 @@ Each learning module includes:
 
 **Quality**:
 - Proofread before committing
+- Use British English spelling punctuation and grammar
 - Use spell-checker and grammar tools
 - Test all external links
 - Validate code examples
