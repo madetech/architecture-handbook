@@ -1,7 +1,7 @@
 # Agentic AI Evolution
 
 **Difficulty**: Introductory
-**Time Investment**: 3-4 hours
+**Time Investment**: 6-8 hours
 **Prerequisites**: Basic understanding of LLMs
 
 ---
