@@ -144,11 +144,11 @@ When using an LLM, we typically have two options: running the model from a cloud
 
 As an example, we can look at [Qwen3-Coder](https://ollama.com/library/qwen3-coder/tags):
 
-<img src='/images/ai-pathway/Ollama Model.jpg' width="80%"></img>
+<img src='/images/ai-pathway/Ollama Model.jpg' width="80%" id="model-page"></img>
 
 The grey numbers refer to the section on this page for meaning.
 
-### 1 Training Date
+### [:one:](#model-page) Training Date
 
 Language models are created at a specific point in time. This means they know things up to that cutoff date and no later. The training date affects outcomes, particularly in rapidly evolving contexts like software development.
 
@@ -573,7 +573,7 @@ Can "see" UI mockups, read handwritten notes, or analyze architectural diagrams.
 - **Increased Latency**: Processing pixels is harder than processing text. Expect a multimodal model to take longer to generate its first word because it has to "scan" the image before it can start thinking.Higher
 - **VRAM Usage**: Vision models usually have an extra "Vision Encoder" module that stays loaded in your GPU memory, leaving less room for the actual text-generation part of the brain.
 
-#### The "Hidden" Value: Embedding
+#### 3 The "Hidden" Value: Embedding
 
 While not usually listed in this specific "Input" column, some models are purely Embedding models. Their "Input" is text, but their "Output" is numbers (vectors). You would choose these when you don't need a chatty response, but rather a way to build a search engine.
 
