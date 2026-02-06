@@ -174,7 +174,7 @@ public string Message
 
 **Outcome**: The model won't refactor the code because it has no awareness of this feature.
 
-### 2 Capabilities
+### [:two:](#model-page) Capabilities
 
 There are a number of capabilities that different models offer.
 
@@ -472,7 +472,7 @@ Developer Use: It helps you make informed architectural decisions based on curre
 
 This can also be used with intranets where search is implemented.
 
-### 2 Model Tiers
+### [:two:](#model-page) Model Tiers
 
 30b / 480b tags Trefer to Parameter Count (30 Billion vs. 480 Billion).
 
@@ -480,11 +480,11 @@ This can also be used with intranets where search is implemented.
 
 480b: A "frontier-class" model. It is much smarter and better at complex reasoning, but it requires massive hardware (data-center grade) to run locally.
 
-### 2 Cloud
+### [:two:](#model-page) Cloud
 
 This tag indicates the model can be offloaded to Ollama’s hosted infrastructure, allowing you to use the massive 480b model even if your local laptop doesn't have 300GB of VRAM.
 
-### 3 The RAM (VRAM) Requirement
+### [:three:](#model-page) The RAM (VRAM) Requirement
 
 The most critical implication is that Model Size required memory.
 
@@ -514,7 +514,7 @@ graph TD
     LlamaCpp -->|Read| Models
 ```
 
-### 4 Context
+### [:four:](#model-page) Context
 
 Context (Column 4) refers to the Context Window, which is measured in Tokens (e.g., 256K).
 
@@ -542,7 +542,7 @@ A common mistake is "Context Stuffing" - putting everything into the window beca
 
 **Efficiency**: RAG is faster and cheaper (or lighter on local compute) than pushing the 256K limit for more than a single query.
 
-### 5 Input
+### [:five:](#model-page) Input
 
 In the Ollama interface, the Input column (marker 5) defines what kind of "raw data" the model’s brain is wired to understand. While it might seem simple, this choice fundamentally shifts your hardware requirements and your application's architecture.Here are the possible values you will see and their trade-offs:
 
@@ -573,7 +573,7 @@ Can "see" UI mockups, read handwritten notes, or analyze architectural diagrams.
 - **Increased Latency**: Processing pixels is harder than processing text. Expect a multimodal model to take longer to generate its first word because it has to "scan" the image before it can start thinking.Higher
 - **VRAM Usage**: Vision models usually have an extra "Vision Encoder" module that stays loaded in your GPU memory, leaving less room for the actual text-generation part of the brain.
 
-#### 3 The "Hidden" Value: Embedding
+#### 3 The "Hidden" Value - Embedding
 
 While not usually listed in this specific "Input" column, some models are purely Embedding models. Their "Input" is text, but their "Output" is numbers (vectors). You would choose these when you don't need a chatty response, but rather a way to build a search engine.
 
