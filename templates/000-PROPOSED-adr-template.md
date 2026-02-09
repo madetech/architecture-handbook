@@ -5,7 +5,7 @@
 | Sequence | 000 |
 | Date | 2006-02-09 |
 | Author| *Your name here* |
-| Authors position | |
+| Authors job title | |
 | Approver | |
 | Approvers job title ||
 | Status | PROPOSED / ACCEPTED / REJECTED / SUPERSEDED / DEPRECIATED|
