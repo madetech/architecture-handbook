@@ -8,7 +8,7 @@
 | Authors job title | |
 | Approver | |
 | Approvers job title ||
-| Status | PROPOSED / ACCEPTED / REJECTED / SUPERSEDED / DEPRECIATED|
+| Status | **PROPOSED** / ACCEPTED / REJECTED / SUPERSEDED / DEPRECIATED|
 
 ## Decision
 
