@@ -1,7 +1,9 @@
 # Title
 
-|----|----|
+
+
 | Sequence | 000 |
+|-----|-----|
 | Date | 2006-02-09 |
 | Author| *Your name here* |
 | Authors position | |
