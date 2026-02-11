@@ -29,7 +29,7 @@ Get an Architect or Lead Engineer involved if this story:
 - [ ] Auth Check: Are we enforcing the right permissions? (Don't just check if they're logged in; check if they should see this).
 - [ ] DB Migrations: Does this change the schema? Is it a "breaking" change that requires a specific deployment order?
 - [ ] Sanitization: Are we treating all user input as "guilty until proven innocent" to prevent injections?
-- [ ] Secrets: Are we exposing any secrets in the codebase?
+- [ ] Secrets: Are we exposing any secrets in the codebase or logs?
 
 ### ⚡ Performance & Scale
 
@@ -57,6 +57,4 @@ Get an Architect or Lead Engineer involved if this story:
 
 - [ ] Deployability: Are we adding anything that will significantly increase the time taken to deploy the service?
 - [ ] Pipelines: Is the deployment still fully automated?
-
-### Other
 
