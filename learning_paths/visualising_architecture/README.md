@@ -17,6 +17,8 @@ This module is split into three parts for deeper exploration:
 2.  **[The C4 Model](./2_c4_model.md)**: A lean approach to diagramming software architecture at multiple levels.
 3.  **[Structurizr](./3_structurizr.md)**: Using Architecture as Code to maintain consistent and up-to-date diagrams.
 
+4.  **[Visualising Progress](./4_visualising_progress.md)**: Using tools like Gantt charts to communicate delivery status and dependencies.
+
 ---
 
 ## Why Visualise?
