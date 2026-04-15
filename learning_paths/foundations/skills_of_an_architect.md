@@ -3,7 +3,7 @@
 
 **Architecture is a skill and set of behaviours: not just a role**
 
-![skills and behaviours](../images/architect_skills_blockbuster.png)
+![skills and behaviours](../../images/architect_skills_blockbuster.png)
 
 As an Architect you need both sides to be effective. you might have fantastic technical knowledge and experience but if you can't communicate and influence others that knowledge will be wasted. Likewise without a solid technical understanding you might not communicate or influence the right ideas or fall short on credibility. Worse still you could lead an organisation in the wrong technical direction !
 
@@ -22,11 +22,11 @@ Examples of different balances of an architect might be:
 - Strong technical background but less experience presenting and communicating ideas to non technical groups
 - Excellent communicator and influencer, great at listening and understanding but has a shallower understanding of technology or might be missing a few areas such as cloud or security.
 
-![Enterprise Architect vs Technical Architect](../images/enterprise-vs-technical.png)
+![Enterprise Architect vs Technical Architect](../../images/enterprise-vs-technical.png)
 
 Another example is a Senior vs a Lead architect where the senior performs more strongly in some areas but is missing a key skill or is overall weaker across other areas compared to the lead.
 
-![Senior Architect vs Lead Architect](../images/senior-vs-lead.png)
+![Senior Architect vs Lead Architect](../../images/senior-vs-lead.png)
 
 You might want to **[map your strengths and skills](https://madetech.github.io/skills-radar/)** over the graphic above ? if you were to rate yourself in each area what would your radar look like ?
 

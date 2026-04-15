@@ -4,11 +4,11 @@
 
 ## Continually visualise the technical architecture
 
-[Read more here](../principles/continually_visualise_the_technical_architecture.md)
+[Read more here](../../principles/continually_visualise_the_technical_architecture.md)
 
 ## Keeping documentation close to code
 
-[Read more here](../principles/keep_documentation_close_to_code.md)
+[Read more here](../../principles/keep_documentation_close_to_code.md)
 
 ## Identifying 'non' requirements
 
@@ -39,6 +39,6 @@ Quality Attributes or Non Functional Requirements need to be considered and bala
 
 ## Communicating into the future
 
-[Read more here](../principles/communicate_into_the_future.md)
+[Read more here](../../principles/communicate_into_the_future.md)
 
 [< Back](./introducing_the_principles.md)

@@ -31,7 +31,7 @@ architecture-handbook/
 │
 ├── learning_paths/                    # Structured learning modules
 │   ├── README.md                      # Learning materials index
-│   ├── *introductory-*.md             # Foundation materials
+│   ├── foundations/                   # Foundational materials (Introduction, Role, Skills)
 │   ├── ai/                            # AI-focused learning path
 │   │   ├── README.md
 │   │   ├── 01-foundations/            # LLMs, AI evolution, safety
@@ -65,11 +65,12 @@ architecture-handbook/
 
 Structured, sequential learning modules designed for different audiences:
 
-#### Foundational Materials
+#### Foundational Materials (`learning_paths/foundations/`)
 - Introduction to software architecture
 - Role and responsibilities of architects
 - Digital architect competencies
 - Architect skills and behaviours
+- Getting started and continuous behaviours
 
 #### AI Learning Path (`learning_paths/ai/`)
 A comprehensive path covering AI systems, agentic architectures, and modern AI patterns:
