@@ -5,4 +5,4 @@
 - Provides value for enabling techniques such as risk storming
 - Can help with speeding up comprehension of architecture for new team members
 
-See the [visualising architecture](../learning_paths/visualising_architecture.md) learning path for more information.
+See the [visualising architecture](../learning_paths/visualising_architecture/README.md) learning path for more information.

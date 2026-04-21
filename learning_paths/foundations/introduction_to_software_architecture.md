@@ -1,6 +1,6 @@
 # Introduction to Architecture
 
-![Quote](../images/architecture_quote_1.png)
+![Quote](../../images/architecture_quote_1.png)
 
 You are probably confused as to what an architect does and thats not surprising ! The role of the architect has evolved in many different directions and organisations deliver architecture in many different ways.
 
@@ -42,7 +42,7 @@ Architecture is part of a value chain, issues early in the chain manifest later 
 
 # AI Learning Path for Technical Architects
 
-- [AI Learning Path for Technical Architects](./ai/README.md)
+- [AI Learning Path for Technical Architects](../ai/README.md)
 
 # Learning Material
 

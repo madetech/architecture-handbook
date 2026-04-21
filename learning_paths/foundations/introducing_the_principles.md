@@ -32,15 +32,15 @@ There is no *'one true way'* to design systems but good software developers have
 
 You don't need to know all these (or the many other approaches not mentioned) inside out but have an awareness so when you see the problem space you might relate it back to a known pattern.
 
-### [Code design principles](./software/code_design_principles.md)
+### [Code design principles](./../software/code_design_principles.md)
 
-### [Responsive architecture approaches](./software/responsive_architecture_approaches.md)
+### [Responsive architecture approaches](./../software/responsive_architecture_approaches.md)
 
-### [Software architecture principles we believe are important](./software/software_architecture_principles.md)
+### [Software architecture principles we believe are important](./../software/software_architecture_principles.md)
 
 ## Microservices vs Monoliths
 
-The debate around how to layer a service - should you or should you not follow a microservice, service oriented or monolithic architecture is so common it's worth addressing now so... [A word on Microservices vs Monoliths](./software/monoliths_vs_microservices.md)
+The debate around how to layer a service - should you or should you not follow a microservice, service oriented or monolithic architecture is so common it's worth addressing now so... [A word on Microservices vs Monoliths](./../software/monoliths_vs_microservices.md)
 
 ## Day to day Behaviours
 

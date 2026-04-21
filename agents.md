@@ -31,7 +31,7 @@ architecture-handbook/
 │
 ├── learning_paths/                    # Structured learning modules
 │   ├── README.md                      # Learning materials index
-│   ├── *introductory-*.md             # Foundation materials
+│   ├── foundations/                   # Foundational materials (Introduction, Role, Skills)
 │   ├── ai/                            # AI-focused learning path
 │   │   ├── README.md
 │   │   ├── 01-foundations/            # LLMs, AI evolution, safety
@@ -49,7 +49,7 @@ architecture-handbook/
 ├── playbooks/                         # Practical guides and playbooks
 │   └── architecture-part-1.md         # Implementation guidance
 │
-├── tools_techniques_tactics/          # Detailed tool and technique guides
+├── techniques_tactics/                # Detailed tool and technique guides
 │   └── impact_mapping/                # Impact mapping methodology
 │
 └── images/                            # Diagrams and visual assets
@@ -65,11 +65,12 @@ architecture-handbook/
 
 Structured, sequential learning modules designed for different audiences:
 
-#### Foundational Materials
+#### Foundational Materials (`learning_paths/foundations/`)
 - Introduction to software architecture
 - Role and responsibilities of architects
 - Digital architect competencies
 - Architect skills and behaviours
+- Getting started and continuous behaviours
 
 #### AI Learning Path (`learning_paths/ai/`)
 A comprehensive path covering AI systems, agentic architectures, and modern AI patterns:
@@ -127,7 +128,7 @@ Practical, actionable guidance for architects:
 - Architectural trade-offs
 - Implementation frameworks
 
-### Tools & Techniques (`tools_techniques_tactics/`)
+### Tools & Techniques (`techniques_tactics/`)
 Brief guides on specific methodologies:
 - Impact mapping (lightweight collaborative planning)
 - Facilitation techniques
@@ -230,7 +231,7 @@ Each learning module includes:
 6. Link from the appropriate README.md index
 
 #### New Tool or Technique
-1. Create subdirectory in `tools_techniques_tactics/`
+1. Create subdirectory in `techniques_tactics/`
 2. Follow naming convention: `kebab-case-name/`
 3. Use headings, where X is the technique or strategy under discussion
   - What is X

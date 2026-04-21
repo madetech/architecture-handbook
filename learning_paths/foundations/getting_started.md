@@ -16,7 +16,7 @@ The book follows the story of a technical lead (acting like a modern architect) 
 
 It's an easy and fun read but gives a practical insight into the role.
 
-![Unicorn Project](../images/unicorn-project.png)
+![Unicorn Project](../../images/unicorn-project.png)
 
 [Find it on Amazon](https://www.amazon.co.uk/dp/1942788762)
 
