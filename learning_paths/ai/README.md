@@ -28,6 +28,7 @@ Each topic includes:
 
 | Topic | Difficulty | Key Architectural Takeaway | Section |
 |-------|-----------|---------------------------|---------|
+| **Large Language Models** | Introductory | What is a Large Language Model | [01-foundations](./01-foundations/ai-large-language-models.md) |
 | **Agentic AI Evolution** | Introductory | How LMs evolved from simple prompts → RAG → autonomous agents | [01-foundations](./01-foundations/agentic-ai-evolution.md) |
 | **AI Safety & Control** | Intermediate | Understanding adversarial AI, monitoring, and the capacity gap | [01-foundations](./01-foundations/ai-safety-control.md) |
 | **MLOps Principles** | Introductory | ML systems are 10% ML, 90% good engineering | [01-foundations](./01-foundations/mlops-principles.md) |
@@ -35,6 +36,7 @@ Each topic includes:
 | **RAG Architecture** | Intermediate | Vector stores, chunking, retrieval for domain-specific knowledge | [02-core-patterns](./02-core-patterns/rag-architecture.md) |
 | **Agentic Workflows** | Intermediate | ReAct, reflexion, tool use, multi-agent collaboration | [02-core-patterns](./02-core-patterns/agentic-workflows.md) |
 | **Vibe Engineering** | Intermediate | The paradigm shift in AI-assisted development | [03-development-workflows](./03-development-workflows/vibe-engineering.md) |
+| **Model Context Protocol** | Intermediate | Using AI to deliver practical tooling  | [03-development-workflows](./03-development-workflows/model-context-protocol.md) |
 | **Spec-Driven Development** | Intermediate | Context compression: maintaining understanding at AI generation speed | [03-development-workflows](./03-development-workflows/spec-driven-development.md) |
 | **Agent Skills Framework** | Intermediate | Anthropic Skills: procedural vs. declarative AI capabilities | [03-development-workflows](./03-development-workflows/agent-skills-framework.md) |
 | **Context Management** | Introductory | Giving LMs the right context to reduce hallucinations | [03-development-workflows](./03-development-workflows/context-management.md) |
@@ -50,6 +52,7 @@ Each topic includes:
 ### Path 1: Foundations First (Recommended for teams new to AI)
 ```
 01-foundations/
+  → ai-large-language-models.md
   → agentic-ai-evolution.md
   → mlops-principles.md
 
@@ -58,6 +61,7 @@ Each topic includes:
   → rag-architecture.md
 
 03-development-workflows/
+ 
   → vibe-engineering.md
   → context-management.md
 ```
@@ -65,6 +69,7 @@ Each topic includes:
 ### Path 2: Hands-On Development (For teams already using AI tools)
 ```
 03-development-workflows/
+  → model-context-protocol.md
   → vibe-engineering.md
   → agent-skills-framework.md
   → context-management.md
@@ -81,6 +86,8 @@ Each topic includes:
 
 02-core-patterns/
   → agentic-workflows.md
+  → model-context-protocol.md
+
 
 04-governance-automation/
   → adr-automation.md
