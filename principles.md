@@ -24,4 +24,4 @@ For example:
 ## Behaviours
 - [Continually visualise the technical architecture](principles/continually_visualise_the_technical_architecture.md)
 - [Keep documentation close to code](principles/keep_documentation_close_to_code.md)
-- [Communicate into the future](principles/keep_documentation_close_to_code.md)
+- [Communicate into the future](principles/communicate_into_the_future.md)
