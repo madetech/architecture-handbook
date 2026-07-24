@@ -1,6 +1,6 @@
 # Architecture Handbook
 ## 🏫 Learning Paths
-- [Introduction to Software Architecture](learning_paths/introduction_to_software_architecture.md)
+- [Introduction to Software Architecture](learning_paths/foundations/introduction_to_software_architecture.md)
 - [Visualising Architecture for Developers](learning_paths/visualising_architecture/1_why_visualise.md)
 - [Software Principles](/learning_paths/software/README.md)
 - [AI Learning Path for Technical Architects](/learning_paths/ai/README.md)
