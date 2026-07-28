@@ -4,11 +4,6 @@ Helping to create a common understanding and foster collaboration.
 ## Recommended reading
 Many of the views expressed here align with the views of Simon Brown in his book which is part of our [recommended reading list](../../resources.md).
 
-## Watch
-Watch our recent visualising architecture CoP session [here](https://drive.google.com/file/d/14R3OpBbcN0xbU_XeQQfG7ocehkw_U0w3/view?usp=share_link)
-
----
-
 ## Learning Path
 
 This module is split into three parts for deeper exploration:
@@ -18,8 +13,6 @@ This module is split into three parts for deeper exploration:
 3.  **[Structurizr](./3_structurizr.md)**: Using Architecture as Code to maintain consistent and up-to-date diagrams.
 
 4.  **[Visualising Progress](./4_visualising_progress.md)**: Using tools like Gantt charts to communicate delivery status and dependencies.
-
----
 
 ## Why Visualise?
 
