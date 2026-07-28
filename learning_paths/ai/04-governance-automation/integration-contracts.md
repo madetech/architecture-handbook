@@ -16,7 +16,7 @@
 
 ### Supplementary
 - **[Semantic Versioning](https://semver.org/)** - Versioning standard (MAJOR.MINOR.PATCH)
-- **[API Evolution Patterns](https://www.infoq.com/articles/API-Change-Strategy/)** - Strategies for non-breaking changes
+- **[API Evolution without Versioning](https://www.infoq.com/presentations/api-evolution-versioning/)** - Strategies for non-breaking changes
 
 ---
 
