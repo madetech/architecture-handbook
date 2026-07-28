@@ -49,7 +49,7 @@
 - About £40 on [Amazon](https://www.amazon.co.uk/gp/product/0984618104) but the ebook is available for £7.99 [on George Fairbanks' own website](https://www.georgefairbanks.com/e-book/)
 
 ### Building Secure & Reliable Systems
-[![Building Secure and Reliable Systems](/images/books/building%20secure%20and%20reliable%20systems.jpg)](https://amzn.eu/d/hZVPXMC)
+[![Building Secure and Reliable Systems](/images/books/building%20secure%20and%20reliable%20systems.jpg)](https://www.amazon.co.uk/dp/1492083127)
 - [Available to read **Free** online, courtesy of Google](https://google.github.io/building-secure-and-reliable-systems/raw/toc.html)
 - Also Available on [Amazon](https://amzn.eu/d/hZVPXMC)
   - £50 for paperback
@@ -60,7 +60,7 @@
 
 
 ### Software Architecture Metrics
-[![Software Architecture Metrics](/images/books/software%20architecture%20metrics.jpg)](https://amzn.eu/d/fAwop90)
+[![Software Architecture Metrics](/images/books/software%20architecture%20metrics.jpg)](https://www.amazon.co.uk/dp/1098112237)
 - Deeper into Architecture
 - A common question is "What does success look like"
 - This book goes through a number of techniques to help understand what success is, how we can quantify success, and check that a project is being successfull

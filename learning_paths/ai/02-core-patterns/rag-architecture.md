@@ -15,7 +15,7 @@
 
 ### Supplementary
 - **[Pinecone - What is RAG?](https://www.pinecone.io/learn/retrieval-augmented-generation/)** - Practical implementation guide
-- **[OpenAI Cookbook - RAG Examples](https://cookbook.openai.com/examples/question_answering_using_embeddings)** - Code examples
+- **[OpenAI Cookbook - RAG Examples](https://developers.openai.com/cookbook/examples/question_answering_using_embeddings)** - Code examples
 
 ---
 

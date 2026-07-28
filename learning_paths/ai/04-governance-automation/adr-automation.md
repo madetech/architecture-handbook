@@ -10,7 +10,7 @@
 
 ### Primary Concepts
 - **[Agent Skills Framework](../03-development-workflows/agent-skills-framework.md)** - Foundation for building governance skills
-- **[ADR Templates - Michael Nygard](https://github.com/joelparkerhenderson/architecture-decision-record)** - Standard ADR format
+- **[ADR Templates - Michael Nygard](https://github.com/architecture-decision-record/architecture-decision-record)** - Standard ADR format
 
 ### Supplementary
 - **[Thoughtworks Tech Radar](https://www.thoughtworks.com/radar)** - Example of technology governance at scale

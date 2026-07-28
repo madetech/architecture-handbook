@@ -16,7 +16,7 @@ Code written using TDD has to be small, have a single purpose and therefore a si
 
 > TDD will force you to write testable code, i.e., *loosely coupled* and *highly cohesive,* which means your code has a higher quality. If the testing becomes difficult, it is a tell-tale sign your design could use improvement. Thus, TDD is an effective way to get feedback on your code’s *internal quality*.
 >
-> https://www.codecraftr.nl/why-use-tdd/
+> https://rstraub.com/why-use-tdd/
 
 ## SOLID
 

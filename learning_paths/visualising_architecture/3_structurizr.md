@@ -36,5 +36,5 @@ Peter Bridger explains how to get up and running with Structurizr to create your
 
 ### Futher reading
 - [Structurizr](https://structurizr.com/) project website
-- [Structurizr Lite](https://structurizr.com/help/lite) free version
+- [Structurizr Lite](https://docs.structurizr.com/lite) free version
 - [Structurizr DSL language reference](https://docs.structurizr.com/dsl/language)
