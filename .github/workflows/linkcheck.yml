@@ -19,3 +19,5 @@ jobs:
           args: --verbose --no-progress --accept "200..=299,401,403" './**/*.md'
           # Fail the job if broken links are found
           fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.LYCHEE_PAT }}
