@@ -1,4 +1,4 @@
-[< Back](../introducing_the_principles.md)
+[< Back](../foundations/introducing_the_principles.md)
 
 # Code design principles
 
@@ -36,4 +36,4 @@ Techniques to help break down code design into modular blocks (hint: so that agi
 
 - [CRC Cards to decompose code into classes](https://agilemodeling.com/artifacts/crcModel.htm)
 
-[< Back](../introducing_the_principles.md)
+[< Back](../foundations/introducing_the_principles.md)

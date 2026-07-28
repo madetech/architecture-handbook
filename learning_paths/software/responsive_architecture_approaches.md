@@ -1,4 +1,4 @@
-[< Back](../introducing_the_principles.md)
+[< Back](../foundations/introducing_the_principles.md)
 
 # Responsive architecture approaches
 
@@ -70,4 +70,4 @@ Events (as messages) can be easily transmitted among loosely coupled software co
 
 [Hexagonal, Onion & Clean Architecture](https://www.youtube.com/watch?v=JubdZIdLQ4M)
 
-[< Back](../introducing_the_principles.md)
+[< Back](../foundations/introducing_the_principles.md)
