@@ -217,7 +217,7 @@ Developer: "Let's use Redis for caching"
 
 **Observe**: The skill **prevents** bad decisions before code is written.
 
-**Note:** As descrbed in the [Agent Skills Framework](./agent-skills-framework.md) Agent Skills have limitations, you made need to prompt Claude to use this skill for now...
+**Note:** As descrbed in the [Agent Skills Framework](../03-development-workflows/agent-skills-framework.md) Agent Skills have limitations, you made need to prompt Claude to use this skill for now...
 
 ---
 
