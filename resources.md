@@ -51,7 +51,7 @@
 ### Building Secure & Reliable Systems
 [![Building Secure and Reliable Systems](/images/books/building%20secure%20and%20reliable%20systems.jpg)](https://www.amazon.co.uk/dp/1492083127)
 - [Available to read **Free** online, courtesy of Google](https://google.github.io/building-secure-and-reliable-systems/raw/toc.html)
-- Also Available on [Amazon](https://amzn.eu/d/hZVPXMC)
+- Also Available on [Amazon](https://www.amazon.co.uk/dp/1492083127)
   - £50 for paperback
   - £35 digital
 - General guide to a wide variety of issues in software deployment
@@ -67,7 +67,7 @@
 - Teaches about fitness functions
 - Teachs Goal Question Metric (GQM) Approach
 - Focus on case studies, and extracting metrics which are relevant
-- £30-40 on [Amazon](https://amzn.eu/d/fAwop90)
+- £30-40 on [Amazon](https://www.amazon.co.uk/dp/1098112237)
 
 ## 📺 Videos
 - [The Software Architect Elevator](https://www.youtube.com/watch?v=Zq2VcRZmz78)

@@ -153,4 +153,4 @@ You can use:
 - **[Impact Mapping Book](https://www.impactmapping.org/book.html)** — "Impact Mapping: Making a Big Impact with Software Products" by Gojko Adzic
 - **[Introductory Articles and Videos](https://www.impactmapping.org/intro-resources.html)** — Getting started resources
 - **[Tips and Tricks](https://www.impactmapping.org/tips-and-tricks.html)** — Advanced techniques for practitioners
-- **[Impact Mapping Community](https://groups.google.com/d/forum/impact-mapping/)** — Discussion list and mentoring
+- **[Impact Mapping Community](https://groups.google.com/g/impact-mapping)** — Discussion list and mentoring
