@@ -25,7 +25,14 @@ jobs:
       - name: Run Lychee Link Checker
         run: |
           # Add --format markdown and --output to generate a report file, --header to keep agilemodelling.com happy
-          lychee --format markdown --output lychee-report.md --root-dir . --accept "200..=299,401,403" --header "Accept: text/html,application/xhtml+xml" './**/*.md'
+          lychee \
+            --verbose \
+            --format markdown \
+            --output lychee-report.md \
+            --root-dir . \
+            --accept "200..=299,401,403" \
+            --header "Accept: text/html,application/xhtml+xml" \
+            './**/*.md'
         env:
           GITHUB_TOKEN: ${{ secrets.LYCHEE_PAT }}
 
