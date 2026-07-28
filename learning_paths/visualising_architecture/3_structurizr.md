@@ -1,5 +1,5 @@
 # Structurizr
-We recommend using the [C4 Model](https://c4model.com/) in conjunction with the [Structurizr DSL](https://github.com/structurizr/dsl) as a way to automatically generate the C4 diagrams from code. This allows for the Structurizr code to be kept in the same repository as the code of the system, making it easier to keep the two up to date together.
+We recommend using the [C4 Model](https://c4model.com/) in conjunction with the [Structurizr DSL](https://github.com/structurizr/structurizr/tree/main/structurizr-dsl) as a way to automatically generate the C4 diagrams from code. This allows for the Structurizr code to be kept in the same repository as the code of the system, making it easier to keep the two up to date together.
 
 A [Structurizr Lite quick start template](https://github.com/madetech/structurizr-template) has been created that you can use as a starting point in your own projects. 
 
@@ -38,4 +38,4 @@ Peter Bridger explains how to get up and running with Structurizr to create your
 ### Futher reading
 - [Structurizr](https://structurizr.com/) project website
 - [Structurizr Lite](https://structurizr.com/help/lite) free version
-- [Structurizr DSL language reference](https://github.com/structurizr/dsl/blob/master/docs/language-reference.md)
+- [Structurizr DSL language reference](https://docs.structurizr.com/dsl/language)

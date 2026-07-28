@@ -52,4 +52,4 @@ We've observed the use of the C4 Model with our active deliveries and found that
 
 See a list of potential [tools](../../principles/tools.md) that are tried and tested.
 
-However, we recommend the [C4 Model](https://c4model.com/) and the [Structurizr DSL](https://github.com/structurizr/dsl). See [here for a demo](https://github.com/madetech/structurizr-template) that you can try and explains why.
+However, we recommend the [C4 Model](https://c4model.com/) and the [Structurizr DSL](https://github.com/structurizr/structurizr/tree/main/structurizr-dsl). See [here for a demo](https://github.com/madetech/structurizr-template) that you can try and explains why.
