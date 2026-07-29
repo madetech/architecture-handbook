@@ -10,7 +10,7 @@
 
 ### Primary Concepts
 - **[Agent Skills Framework](../03-development-workflows/agent-skills-framework.md)** - Foundation for building governance skills
-- **[ADR Templates - Michael Nygard](https://github.com/joelparkerhenderson/architecture-decision-record)** - Standard ADR format
+- **[ADR Templates - Michael Nygard](https://github.com/architecture-decision-record/architecture-decision-record)** - Standard ADR format
 
 ### Supplementary
 - **[Thoughtworks Tech Radar](https://www.thoughtworks.com/radar)** - Example of technology governance at scale
@@ -217,7 +217,7 @@ Developer: "Let's use Redis for caching"
 
 **Observe**: The skill **prevents** bad decisions before code is written.
 
-**Note:** As descrbed in the [Agent Skills Framework](./agent-skills-framework.md) Agent Skills have limitations, you made need to prompt Claude to use this skill for now...
+**Note:** As descrbed in the [Agent Skills Framework](../03-development-workflows/agent-skills-framework.md) Agent Skills have limitations, you made need to prompt Claude to use this skill for now...
 
 ---
 

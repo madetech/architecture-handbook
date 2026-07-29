@@ -1,0 +1,45 @@
+name: Check Markdown Links
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  link-checker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+            token: ${{ secrets.LYCHEE_PAT }}
+            persist-credentials: false # Stops GHA from injecting the restricted token into .git/config
+
+      # 1. Installs the native Lychee binary
+      - name: Install Lychee
+        uses: taiki-e/install-action@v2
+        with:
+          tool: lychee
+
+      # 2. Runs Lychee and generates a Markdown report
+      - name: Run Lychee Link Checker
+        run: |
+          # Add --format markdown and --output to generate a report file, --header to keep agilemodelling.com happy
+          lychee \
+            --verbose \
+            --format markdown \
+            --output lychee-report.md \
+            --root-dir . \
+            --accept "200..=299,401,403" \
+            --header "Accept: text/html,application/xhtml+xml" \
+            './**/*.md'
+        env:
+          GITHUB_TOKEN: ${{ secrets.LYCHEE_PAT }}
+
+      # 3. Pushes the report to the GitHub Actions UI
+      - name: Publish Output to Job Summary
+        if: always() # Ensures the report prints even if Lychee finds broken links and "fails"
+        run: |
+          if [ -f lychee-report.md ]; then
+            cat lychee-report.md >> $GITHUB_STEP_SUMMARY
+          fi

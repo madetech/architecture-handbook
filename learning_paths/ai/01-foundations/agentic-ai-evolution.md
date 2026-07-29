@@ -176,7 +176,7 @@ Prompt 3: "Rewrite the function incorporating your feedback"
 ## Further Reading
 
 - [Made With ML - Agentic Systems](https://madewithml.com/) - Comprehensive learning path for ML engineering
-- [Anthropic's Claude Agent Guide](https://docs.anthropic.com/claude/docs/agents) - How to build agents with Claude API
+- [Get started with Claude Managed Agents](https://platform.claude.com/docs/en/managed-agents/quickstart) - How to build agents with Claude
 
 ---
 

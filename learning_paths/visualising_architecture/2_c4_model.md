@@ -28,13 +28,12 @@ The creator of C4 Simon Brown has published a book called `Visualising Software 
 
 ## Watch
 ### Visualising Architecture CoP session (22nd November 2022)
-[![Visualising Architecture](https://madetech.github.io/architecture-handbook/images/visualising_architecture.jpg)](https://drive.google.com/file/d/14R3OpBbcN0xbU_XeQQfG7ocehkw_U0w3/view)
+[![Visualising Architecture](https://madetech.github.io/architecture-handbook/images/visualising_architecture.jpg)](https://docs.google.com/presentation/d/1wXXkyTgoNJIgyD9MDuIlvi85uGHWjIgQhvOPKTNsrHo/view)
 
 **Made Tech internal only video**
 
 Stuart McKee demonstrates how to create a common understanding and foster collaboration
 
-- [Recording](https://drive.google.com/file/d/14R3OpBbcN0xbU_XeQQfG7ocehkw_U0w3/view)
-- [Slides](https://docs.google.com/presentation/d/1wXXkyTgoNJIgyD9MDuIlvi85uGHWjIgQhvOPKTNsrHo/edit)
+- [Slides](https://docs.google.com/presentation/d/1wXXkyTgoNJIgyD9MDuIlvi85uGHWjIgQhvOPKTNsrHo/view)
 
 **Next** - [Structurizr](./3_structurizr.md)

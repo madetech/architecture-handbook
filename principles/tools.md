@@ -19,7 +19,7 @@
 - An enterprise modelling language that is free and open
 - Open source modelling toolkit available: [Archi](https://www.archimatetool.com/)
 
-## [Draw.io](https://draw.io)
+## [Draw.io](https://www.drawio.com/)
 
 - As lots of default shapes, AWS etc
 
@@ -30,7 +30,7 @@
 - Developed by Simon Brown, and so has strong C4 model support
 - See [MoJ's HMPPS](https://github.com/ministryofjustice/hmpps-architecture-as-code) example
 
-## [CodeClimate Quality](https://codeclimate.com/quality)
+## [CodeClimate Quality](https://qlty.sh/)
 
 - Help get a better understanding of technical debt in a code base and how to resolve it
 - Applicable across a large range of languages

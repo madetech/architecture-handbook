@@ -1,4 +1,4 @@
-[< Back](../introducing_the_principles.md)
+[< Back](../foundations/introducing_the_principles.md)
 
 # A word on Microservices vs Monoliths
 
@@ -17,4 +17,4 @@ We believe a team should understand how to create a loosely coupled Monolith bef
 
 [Modular Monoliths • Simon Brown (Warning! Challenging! Pay close attention to minute 38 onwards)](https://youtu.be/5OjqD-ow8GE?t=2283)
 
-[< Back](../introducing_the_principles.md)
+[< Back](../foundations/introducing_the_principles.md)

@@ -174,13 +174,13 @@ A curated collection of video resources organised by topic. All videos are refer
   - Free, project-based learning
 
 ### Documentation & Guides
-- **[Anthropic's Claude Agent Guide](https://docs.anthropic.com/claude/docs/agents)** - Building agents with Claude API
-- **[OpenAI Cookbook - RAG Examples](https://cookbook.openai.com/examples/question_answering_using_embeddings)** - Code examples for RAG
+- **[Get started with Claude Managed Agents](https://platform.claude.com/docs/en/managed-agents/quickstart)** - Building agents with Claude API
+- **[OpenAI Cookbook - RAG Examples](https://developers.openai.com/cookbook/examples/question_answering_using_embeddings)** - Code examples for RAG
 - **[Pinecone - What is RAG?](https://www.pinecone.io/learn/retrieval-augmented-generation/)** - Practical RAG implementation guide
 
 ### Tools & Standards
 - **[Thoughtworks Tech Radar](https://www.thoughtworks.com/radar)** - Example of technology governance at scale
-- **[Michael Nygard ADR Templates](https://github.com/joelparkerhenderson/architecture-decision-record)** - Standard ADR formats
+- **[Michael Nygard ADR Templates](https://github.com/architecture-decision-record/architecture-decision-record)** - Standard ADR formats
 - **[OWASP Top 10](https://owasp.org/www-project-top-ten/)** - Common security vulnerabilities
 - **[STRIDE Threat Modeling](https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-threats)** - Microsoft's threat modeling framework
 
