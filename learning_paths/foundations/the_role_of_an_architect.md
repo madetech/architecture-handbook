@@ -1,5 +1,22 @@
 # The Role of the Architect
 
+The role of the architect has evolved in many different directions and organisations deliver architecture in many different ways.
+
+However, fundamentally they are all working to achieve the same goals.
+
+ - Ensure technical designs meet the user and business needs, delivering clear outcomes
+ - Ensure technical delivery is of high quality and value for money
+
+This is often achieved by:
+
+ - Working closely with the business or service area to understand goals
+ - Working closely with developers, advising, mentoring and developing skills
+ - Setting technical design standards and guidelines for ways of working
+ - Sharing knowledge through communities of practice
+ - Communicating clearly at different levels and audiences
+ - Looking left and right across the technical landscape minimising divergence and increasing convergence
+ - Governance
+
 Traditionally the architect role has evolved into certain activities at different levels within an organisation.
 
 You will see some architects working closely with the exec team and never with developers, others work close to the coal face and organisations like to keep this distinction by differing titles.
