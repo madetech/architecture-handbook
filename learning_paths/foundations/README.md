@@ -4,11 +4,8 @@ A structured introduction to the role, expectations, and core skills of a modern
 
 ## Learning Path
 
-1. **[Introduction to Architecture](./introduction_to_software_architecture.md)**
-   Overview of what an architect does and their role in a value chain.
-
-2. **[Why do we need Architecture?](./why_do_we_need_architecture.md)**
-   Understanding the story that architecture tells and its impact on business.
+1. **[Introduction to Software Architecture](./introduction_to_software_architecture.md)**
+   What is it and why do we need it?
 
 3. **[The Role of an Architect](./the_role_of_an_architect.md)**
    Navigating titles and understanding the focus of technical vs. enterprise architecture.
