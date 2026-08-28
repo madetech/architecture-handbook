@@ -1,8 +1,8 @@
-# Introduction to Architecture
+# Introduction to Software Architecture
 
 ![Quote](../../images/architecture_quote_1.png)
 
-You are probably confused as to what an architect does and thats not surprising ! The role of the architect has evolved in many different directions and organisations deliver architecture in many different ways.
+The role of the architect has evolved in many different directions and organisations deliver architecture in many different ways.
 
 However, fundamentally they are all working to achieve the same goals.
 
