@@ -2,23 +2,6 @@
 
 ![Quote](../../images/architecture_quote_1.png)
 
-The role of the architect has evolved in many different directions and organisations deliver architecture in many different ways.
-
-However, fundamentally they are all working to achieve the same goals.
-
- - Ensure technical designs meet the user and business needs, delivering clear outcomes
- - Ensure technical delivery is of high quality and value for money
-
-This is often achieved by:
-
- - Working closely with the business or service area to understand goals
- - Working closely with developers, advising, mentoring and developing skills
- - Setting technical design standards and guidelines for ways of working
- - Sharing knowledge through communities of practice
- - Communicating clearly at different levels and audiences
- - Looking left and right across the technical landscape minimising divergence and increasing convergence
- - Governance
-
 ## What is it?
 
 Software Architecture:
@@ -49,10 +32,12 @@ Good Software Architecture:
 
 ## Contents
 
-- [Architects and their many titles](./the_role_of_an_architect.md)
+- [The Role of an Architect](./the_role_of_an_architect.md)
 - [The Modern Architect](./the_digital_architect.md)
-- [The expectations placed on Architects](./expectations_of_an_architect.md)
-- [The skills and behaviours of an Architect](./skills_of_an_architect.md)
+- [The Expectations of an Architect](./expectations_of_an_architect.md)
+- [The Skills and Behaviours of an Architect](./skills_of_an_architect.md)
+
+## Other Paths
 - [AI Learning Path for Technical Architects](../ai/README.md)
 
 ## Learning Material
