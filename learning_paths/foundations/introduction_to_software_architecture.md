@@ -19,7 +19,7 @@ This is often achieved by:
  - Looking left and right across the technical landscape minimising divergence and increasing convergence
  - Governance
 
-# Contents
+## Contents
 
 - [Why do we need architecture](./why_do_we_need_architecture.md)
 - [Architects and their many titles](./the_role_of_an_architect.md)
@@ -28,7 +28,7 @@ This is often achieved by:
 - [The skills and behaviours of an Architect](./skills_of_an_architect.md)
 - [AI Learning Path for Technical Architects](../ai/README.md)
 
-# Learning Material
+## Learning Material
 
 - [Getting Started](./getting_started.md)
 - [Introducing the Principles](./introducing_the_principles.md)
