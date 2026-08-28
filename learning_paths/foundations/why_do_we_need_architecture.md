@@ -1,25 +1,31 @@
-# Why do we need architecture ?
+# About Software Architecture
 
-<mark>To Do: write our own answer to this question</mark>
+## What is it?
 
-* Architecture is the **simplest abstraction** of a complex product.
-<br/><mark>This answers the "what" question not the "why" question</mark>
+Software Architecture:
 
-* Architecture is useful in **envisioning** the product or application.
-<br/><mark>"useful" is a bit weak, I think there is a stronger need to articulate here</mark>
+* Is the **simplest abstraction** of a complex product;
 
-* Architecture is helpful to ensure the **modularity**, **cohesion** and **coupling** of the product as it is being built.
-<br/><mark>Why do we need these things?</mark>
+* Describes the **load-bearing structures** that allow finer technical design decisions to evolve without the whole system collapsing;
 
-* Architecture is **essential** to **onboard** members to a team, to understand the essence of the product and how it works.
-<br/><mark>This is reasonable - this would be helped by answering the 'what' question.</mark>
+* Describes the things that are **difficult to change** later;
 
-* Architecture enables understanding **the impact of and planning** of significant changes. Story Mapping; Impact Mapping...
-<br/><mark>Why does it help?</mark>
+* Defines the **modularity, cohesion, and coupling** of the components.
 
-* Architecture should guide the **team topology** working on the product per Conway.
-<br/><mark>Should explain Conway's law here</mark>
+## Why do we need it?
 
-<small>Source: <cite>[Coevolution of Architecture & Code - Closing The Gap](https://www.youtube.com/watch?v=slGZMTFPElo)</cite></small>
+Good Software Architecture:
+
+* Deliberately defines key technical decisions to **avoid substantial rework** later;
+
+* Enables **safe detailed technical decisions** to happen within a defined framework;
+
+* Embeds a long-term vision so that **aligned future requirements** can be incorporated;
+
+* Allows **onboarding of new team members** through understanding the essence of the product;
+
+* Visualises the structure so the two-way relationship with the **organisational structure** is clear;
+
+* Allows for better **forecasting the impact of changes**.
 
 **Next** - [The Role of the Architect](./the_role_of_an_architect.md)
