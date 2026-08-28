@@ -30,17 +30,4 @@ Good Software Architecture:
 
 * Allows for better **forecasting the impact of changes**.
 
-## Contents
-
-- [The Role of an Architect](./the_role_of_an_architect.md)
-- [The Modern Architect](./the_digital_architect.md)
-- [The Expectations of an Architect](./expectations_of_an_architect.md)
-- [The Skills and Behaviours of an Architect](./skills_of_an_architect.md)
-
-## Other Paths
-- [AI Learning Path for Technical Architects](../ai/README.md)
-
-## Learning Material
-
-- [Getting Started](./getting_started.md)
-- [Introducing the Principles](./introducing_the_principles.md)
+[↑ Foundations](.) | [The Role of an Architect →](./the_role_of_an_architect.md)

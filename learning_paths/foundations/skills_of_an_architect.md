@@ -32,4 +32,4 @@ You might want to **[map your strengths and skills](https://madetech.github.io/s
 
 Once you understand this you know your strengths and weaknesses and you can communicate that to your team, if someone on your team excels in an area you are weak then work together and learn from them!
 
-**Next** - [Getting Started](./getting_started.md)
+[← The Expectations Placed on Architects](./expectations_of_an_architect.md) | [↑ Foundations](.) | [Getting Started →](./getting_started.md)

@@ -25,4 +25,4 @@ The role has been described as 'some kind of digital guru' which can feel a bit 
 
 The modern architect does not operate in a silo but has a broader role, bringing the organisation together around lean and agile methodologies to enable the most effective technical delivery for a service. They work closely with Delivery Managers and Product Owners managing trade offs and leading technical decision making from a position of informed knowledge.
 
-**Next** - [The expectations placed on Architects](./expectations_of_an_architect.md)
+[← The Role of an Architect](./the_role_of_an_architect.md) | [↑ Foundations](.) | [The Expectations Placed on Architects →](./expectations_of_an_architect.md)

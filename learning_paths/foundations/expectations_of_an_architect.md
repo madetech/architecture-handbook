@@ -31,4 +31,4 @@ They might do this by coding with the team or by simply discussing the code and 
  - Do they design everything ? no
  - Do they need to know everything ? no
 
-**Next** - [The skills and behaviours of an Architect](./skills_of_an_architect.md)
+[← The Modern Architect](./the_digital_architect.md) | [↑ Foundations](.) | [The skills and behaviours of an Architect →](./skills_of_an_architect.md)
