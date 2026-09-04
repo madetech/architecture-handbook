@@ -51,4 +51,4 @@ Quality Attributes or Non Functional Requirements need to be considered and bala
 
 [Read more here](../../principles/communicate_into_the_future.md)
 
-[< Back](./introducing_the_principles.md)
+[← Introducing the Principles](./introducing_the_principles.md) | [↑ Foundations](.)
