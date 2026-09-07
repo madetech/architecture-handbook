@@ -28,7 +28,9 @@
 - Diagrams as code
 - Also offers publishing of [ADRs](./communicate_into_the_future.md) to enrich the generated diagrams
 - Developed by Simon Brown, and so has strong C4 model support
-- See [MoJ's HMPPS](https://github.com/ministryofjustice/hmpps-architecture-as-code) example
+- See [MoJ's HMPPS](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/ministryofjustice/hmpps-architecture-as-code.git&visit_type=git) (archived) example
+
+<mark>ToDo: This MoJ repository has been deleted, linking to the version in the Software Heritage Archive. Update this link to something that is still live.</mark>
 
 ## [CodeClimate Quality](https://qlty.sh/)
 
