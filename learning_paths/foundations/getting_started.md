@@ -20,4 +20,4 @@ It's an easy and fun read but gives a practical insight into the role.
 
 [Find it on Amazon](https://www.amazon.co.uk/dp/1942788762)
 
-**Next** - [Introducing the Principles](./introducing_the_principles.md)
+[← Skills & Behaviours of an Architect](./skills_of_an_architect.md) | [↑ Foundations](.) | [Introducing the Principles →](./introducing_the_principles.md)
